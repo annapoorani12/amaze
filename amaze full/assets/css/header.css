@@ -1,0 +1,49 @@
+ #img1
+    {
+      	width: 276px;
+        height: 500px;
+    }
+   #img2
+	{
+		width: 322px;
+    	height: 230px;
+	}
+	#img3
+	{
+		width: 215px;
+    	height: 230px;
+    	margin-left: 212%;
+ 	}
+ 	#img4
+ 	{
+ 	    width: 207px;
+    	height: 255px;
+    	margin-top: 22%;
+  	}
+	#img5
+	{
+		width: 329px;
+    	margin-left: 78%;
+    	height: 255px;
+    	margin-top: 9%;
+	}
+	#img6
+	{
+		width: 276px;
+    	height: 500px;
+   		margin-left: -4%;
+  	}
+  	.head
+  	{
+  		width: 1353px;
+    	height: 66px;
+    	font-family: Raleway;
+    	font-size: 28px;
+    	font-weight: bold;
+    	font-style: normal;
+    	font-stretch: normal;
+    	line-height: 1.17;
+    	letter-spacing: normal;
+    	text-align: left;
+    	color: var(--black-two);
+  	}

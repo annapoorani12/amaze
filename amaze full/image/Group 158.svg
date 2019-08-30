@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="69.332" height="75.989" viewBox="0 0 69.332 75.989">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:#f0f0f0}.cls-1,.cls-3{stroke:#131313;stroke-width:2px}.cls-3,.cls-5{fill:none}.cls-4,.cls-6{stroke:none}.cls-6{fill:#131313}
+        </style>
+    </defs>
+    <g id="Group_158" data-name="Group 158">
+        <g id="Rectangle_413" class="cls-1" data-name="Rectangle 413">
+            <path d="M0 0h17.818a10 10 0 0 1 10 10v26.364a10 10 0 0 1-10 10H0V0z" class="cls-4" transform="rotate(90 9.781 47.401)"/>
+            <path d="M2 1h15.818a9 9 0 0 1 9 9v26.364a9 9 0 0 1-9 9H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z" class="cls-5" transform="rotate(90 9.781 47.401)"/>
+        </g>
+        <g id="Path_142" class="cls-2" data-name="Path 142">
+            <path d="M1.302 46.372L9.27 9.27l37.102-7.968-7.968 37.102-37.102 7.968z" class="cls-4" transform="rotate(45 16.855 40.693)"/>
+            <path d="M45.069 2.605l-34.957 7.507-7.507 34.957 34.957-7.507L45.07 2.605M47.674 0l-8.428 39.246L0 47.674 8.428 8.428 47.674 0z" class="cls-6" transform="rotate(45 16.855 40.693)"/>
+        </g>
+        <path id="Line_43" d="M0 0v31" class="cls-3" data-name="Line 43" transform="translate(63.832 35.49)"/>
+        <g id="Polygon_1" class="cls-2" data-name="Polygon 1">
+            <path d="M9.382 10H1.618L5.5 2.236 9.382 10z" class="cls-4" transform="translate(58.332 64.99)"/>
+            <path d="M5.5 4.472L3.236 9h4.528L5.5 4.472M5.5 0L11 11H0L5.5 0z" class="cls-6" transform="translate(58.332 64.99)"/>
+        </g>
+        <g id="Ellipse_95" class="cls-1" data-name="Ellipse 95" transform="translate(60.332 61.99)">
+            <ellipse cx="3.5" cy="3" class="cls-4" rx="3.5" ry="3"/>
+            <ellipse cx="3.5" cy="3" class="cls-5" rx="2.5" ry="2"/>
+        </g>
+        <g id="Ellipse_96" class="cls-1" data-name="Ellipse 96" transform="translate(28.332 28.99)">
+            <ellipse cx="5.5" cy="5" class="cls-4" rx="5.5" ry="5"/>
+            <ellipse cx="5.5" cy="5" class="cls-5" rx="4.5" ry="4"/>
+        </g>
+    </g>
+</svg>

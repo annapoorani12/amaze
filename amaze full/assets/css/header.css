@@ -1,7 +1,22 @@
- #img1
+ .img1
     {
-      	width: 276px;
-        height: 500px;
+     /* 	width: 276px;
+        height: 500px;*/
+       /* width:100%;
+        height:500%;
+         src="image/cat1.jpg"
+
+
+        */
+        background-image: url("https://animaster.com/wp-content/uploads/2018/02/after-10-12-art-design-college.jpg");
+     /* background-size : cover;
+      background-size: 300px 100px; */
+
+       border: 2px solid black;
+ /* background: url(mountain.jpg);*/
+ /*padding:100%;*/
+  background-repeat: no-repeat;
+  background-size: auto;
     }
    #img2
 	{
@@ -148,16 +163,16 @@
     }
      #container1
 {
-      width: 1332px;
-        height: 370.7px;
+     /*width: 1332px
+    height: 370.7px;*/
     background-color: #fff6ef;
-    padding-top: -64px;
-    margin-top: 207px;
+/*    padding-top: -64px;
+    margin-top: 207px;*/
 }
     #select
     {
     font-family: Raleway;
-    font-size: 21px;
+    font-size: 28px;
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
@@ -165,9 +180,9 @@
     letter-spacing: normal;
     text-align: left;
     color: #2c1915;
-    margin-top: 149px;
-    padding-left: 105px;
+    margin-top: 98px;
         padding-top: 17px;
+        padding-left: 100px;
 }
 #div1
 {
@@ -208,11 +223,8 @@
 }
 .girl
 {
-  width: 201.9px;
-    height: 222px;
-    object-fit: contain;
-    /* margin-top: 3px; */
-    margin-left: -8px;
+  
+  
 }
 #girldiv
  {
@@ -223,7 +235,7 @@
     margin-left: 22px;
     margin-top: 67px;
 }
-.budha
+/*.budha
 {
      width: 140px;
     height: 253.5px;
@@ -232,7 +244,7 @@
     margin-left: -15px;
     padding-top: 4px;
     margin-top: -16px;
-}
+}*/
 #budhadiv
 {
       width: 145px;
@@ -363,4 +375,5 @@
   letter-spacing: normal;
   text-align: left;
   color: #2c1915;
+  margin-top: -10px;
     }

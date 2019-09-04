@@ -377,3 +377,148 @@
   color: #2c1915;
   margin-top: -10px;
     }
+    .path
+    {
+       position: absolute;
+       top: 0px;
+       z-index: 0;
+    }
+    .btn
+    {
+      width: 140px;
+      height: 50px;
+      border-radius: 2px;
+      background-color: #434343;
+      text-align: center;
+      margin-left: 192px;
+    }
+    .recent
+    {
+      width: 336px;
+    height: 67px;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.59;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222222;
+    z-index: 0;
+    position: absolute;
+    margin-top: 196px;
+    margin-left: 3px;
+    }
+
+    .selection
+    {
+      width: 313px;
+    height: 147px;
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2c1915;
+    margin-left: -36px;
+}
+  	.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.rowh {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column 
+{
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+.btnrecent
+{
+  width: 83px;
+  height: 28px;
+  border-radius: 2px;
+  background-color: #ec8c39;
+  margin-top: 290px;
+  margin-left: 4px;
+}
+.btntext
+{
+  width: 79px;
+  height: 30px;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.solid
+{
+  border-style:solid ;
+  border-color:#421e00;
+  border-width: thick;
+}
+.artdrawing3
+{
+padding-top: 15px;
+}
+.artdrawing
+{
+padding-top: 15px;
+}
+.artdrawing2
+{
+margin-top: 15px;
+margin-bottom: 15px;
+}
+#container12
+{
+  background-color: #fff6ef;
+}
+.frame1
+{
+  margin-top:58px;
+}
+.heroimg
+{
+  width: 110%;
+  margin-left: -15px;
+}
+.gifthead
+{
+  width: 313px;
+    height: 147px;
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2c1915;
+    margin-left: -36px;
+    z-index: 0;
+    position: absolute;
+}

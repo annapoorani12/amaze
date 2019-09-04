@@ -1,0 +1,173 @@
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+  .original
+  {
+    margin-top: 165px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .girl
+  {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .img
+  {
+        width: 84%!important;
+    margin-left: 40px;
+    height: 49.5%;
+  }
+  .camera
+  {
+        width: 115%!important;
+  }
+  .draw
+  {
+        width: 91%!important;
+    height: 47%;
+    margin-top: -11px!important;
+  }
+  .girly
+  {
+        margin-left: -26px;
+    margin-top: -6px!important;
+    height: 204px!important;
+    width: 108%!important;
+}
+   .horse
+   {
+        margin-left: -4px;
+        width:100%;min-height: 100%;
+   }
+   #container1
+   {
+   	margin-top: 80px!important;
+     width:100%;
+     height: 375px;
+   }
+   .forest
+   {
+        width: 243px;
+    height: 202px;
+    margin-left: -50px;
+   }
+   .fimage
+   {
+   	    height: 188px!important;
+    margin-top: 3px;
+
+   }
+   .style
+   {
+   	    height: 202px!important;
+    margin-left: -22px;
+    margin-right: -13px;
+
+   }
+   .budha
+   {
+
+    height: 199px;
+    margin-top: 1px;
+    margin-right: 26px;
+        margin-left: -7px;
+   }
+   .budhaimg
+   {
+   	height: 189px!important;
+   }
+   .styleimage
+   {
+   	height: 190px!important;
+   }
+   .col-md-8 
+	{
+    width: 62.666667%;
+    margin-top: 110px!important;
+  }	
+  .btn
+    {
+      width: 140px;
+      height: 50px;
+      border-radius: 2px;
+      background-color: #434343;
+      text-align: center;
+      margin-left: 500px;
+    }
+    .fixedImg{
+      background-repeat: no-repeat;
+      background-position: center;
+      background-image: url('image/cat1.jpg');
+      background-size: cover;
+    }
+    .fixedImg1{
+      background-repeat: no-repeat;
+      background-position: center;
+      background-image: url('image/cat6.jpg');
+      background-size: cover;
+    }
+    .selection
+    {
+      margin-left:88px!important;
+    }
+    .recent
+    {
+        margin-left: 88px!important;
+    }
+    .btnrecent
+    {
+        margin-left: 88px!important;
+        width: 83px;
+  height: 28px;
+  border-radius: 2px;
+  background-color: #ec8c39;
+    }
+    .frame
+    {
+        
+        margin-top: 160px;
+        margin-left: 123px!important;
+        max-width: 23.5%;
+    }        
+    .frame1
+    {
+        max-width: 23%;
+        margin-top: 94px;
+        margin-left: 43px!important;
+    }
+    #container12
+    {
+        height: 540px!important;
+        width: 100%;
+    }
+    .heroimg
+    {
+      margin-left: -107px;
+      width: 119%!important;s
+    }
+
+}
+@media (min-width: 992px)
+{
+	.col-md-8 
+	{
+    width: 62.666667%;
+    margin-top: 50px!important;
+	}	
+}
+
+

@@ -1,0 +1,97 @@
+body { 
+  background: url(banner.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container{
+padding: 25px;   
+}
+#Coming_Soon{
+	margin-top:177.379px;
+	margin-left: 195px;
+  width: 601px;
+  height: 133px;
+  font-family: RalewayExtraLight;
+  font-size: 100px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+#Our_site_is_under_construction {
+    position: absolute;
+    left: 428px;
+    top: 320.379px;
+    overflow: visible;
+    width: 544px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(0,0,0,1);
+}
+#We_are_multivendor_online_art_ {
+    position: absolute;
+    left: 323px;
+    top: 361.379px;
+    overflow: visible;
+    width: 683px;
+    white-space: nowrap;
+    line-height: 34px;
+    margin-top: -7px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 20px;
+    color: rgba(0,0,0,1);
+}
+.marg-area {
+    float: left;
+    padding: 0 10px;
+    width: 50%;
+}
+.column{
+	    margin-top: 81px;
+    margin-left: 330px;
+}
+.form-control {
+	height: 55px;
+	width:100%;
+}
+.btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    height: 56px;
+    width: 97px;
+}

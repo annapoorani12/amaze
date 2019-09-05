@@ -106,7 +106,7 @@
       border-radius: 2px;
       background-color: #434343;
       text-align: center;
-      margin-left: 500px;
+      margin-left: 593px;
     }
     .fixedImg{
       background-repeat: no-repeat;
@@ -157,9 +157,216 @@
     .heroimg
     {
       margin-left: -107px;
-      width: 119%!important;s
+      width: 119%!important;
     }
-
+    .giftside
+    {
+      width: 498px;
+      height: 26px;
+      font-family: Roboto;
+      font-size: 15px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.3;
+      letter-spacing: normal;
+      text-align: left;
+      color: #222222;
+      margin-top: -359px;
+      margin-left: 345px;
+    }
+    .gifthead
+    {
+      width: 498px;
+      height: 26px;
+      font-family: Roboto;
+      font-size: 30px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.3;
+      letter-spacing: normal;
+      text-align: left;
+      color: #222222;
+      margin-top: -412px;
+      margin-left: 345px;
+    }
+    .icons
+    {
+      margin-top: -240px;
+      margin-left: 30px;
+    }
+    .create
+    {
+      width: 535px;
+      height: 147px;
+      font-family: Raleway;
+      font-size: 28px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.17;
+      letter-spacing: normal;
+      text-align: left;
+      margin-left: -36px;
+      margin-top:100px;
+    }
+    .createsub
+    {
+      width: 416px;
+    height: 67px;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.59;
+    letter-spacing: normal;
+    text-align: left;
+    margin-top: -88px;
+    margin-left: -36px;
+    }
+    .rectangle
+    {
+      width: 699px;
+      height: 275px;
+      border-radius: 15px;
+      background-color: #ec8c39;
+      margin-top: 80px;
+      margin-left: 202px;
+    }
+    .emerge
+    {
+      background-color: #fff6ef;
+      width: 1360px;
+      margin-left: -106px;
+      margin-top: 226px;
+      height:735px;
+    }
+    .emergehead
+    {
+      font-family: Raleway;
+      font-size: 28px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.18;
+      letter-spacing: normal;
+      text-align: left;
+      margin-top: 206px;
+    }
+    .emergecol
+    {
+      width: 90%!important;
+      margin-left: 77px;
+  
+    }
+    .recentview
+    {
+      font-family: Raleway;
+      font-size: 28px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.18;
+      letter-spacing: normal;
+      text-align: left;
+      margin-top: 80px; 
+    }
+    .recentrow
+    {
+      margin-top:44px;
+    }
+    .tgirl
+    {
+      width:20%;
+    }
+    .ynature
+    {
+      width:20%;
+    }
+    .cyclenature
+    {
+      width:20%;
+    }
+    .natures
+    {
+      width:20%;
+    }
+    .treehouse
+    {
+      width:20%;
+    }
+    .recentimg
+    {
+      height:234px!important;
+    }
+    .fullimage
+    {
+      margin-left: -124px;
+    height: 434px;
+    width: 1353px!important;
+    }
+  .listrow
+  {
+    margin-left: 194px!important;
+    margin-top: -307px!important;
+  }
+  .iconimage
+  {
+    width: 37px;
+    height: 87.3px;
+    object-fit: contain;
+    margin-left: 35px;
+  }
+  .listdetails
+  {
+    width: 190px;
+    height: 64px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--black-two);
+    margin-left: -27px;
+  }
+  .recentext
+  {
+    width: 167px;
+    height: 26px;
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+  }
+  .rate
+  {
+    width: 54px;
+  height: 32px;
+  font-family: Roboto;
+  font-size:9 px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ff4e4e;
+  }
+  .box
+{
+  width: 150%;
+  margin-top: 69px;
+  height: 100px;
+}
 }
 @media (min-width: 992px)
 {

@@ -426,6 +426,21 @@
     color: #2c1915;
     margin-left: -36px;
 }
+  .get
+  {
+    width: 313px;
+    height: 147px;
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2c1915;
+    margin-left: -36px;
+  }
   	.header {
   text-align: center;
   padding: 32px;
@@ -570,6 +585,36 @@ margin-bottom: 15px;
       text-align: left;
       margin-top: 200px;
 }
+.quotes
+{
+  width: 279px;
+    height: 159px;
+    font-family: Semplicità;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+    margin-left: 115px;
+    margin-top: 36px;
+}
+.customerhead
+{
+  font-family: Raleway;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: left;
+    margin-top: -123px;
+    margin-left: 93px;
+    color:#ffffff;
+}
 .recentview
 {
   font-family: Raleway;
@@ -625,7 +670,11 @@ margin-bottom: 15px;
 }
 .box
 {
-  width: 100%;
+  width: 21%;
   margin-top: 69px;
-  height: 100px;
+  height: 71px;
+}
+.icons
+{
+width:100px;
 }

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="47.127" height="57.813" viewBox="0 0 47.127 57.813">
+    <defs>
+        <style>
+            .cls-1,.cls-2,.cls-3,.cls-4{fill:none}.cls-1,.cls-3,.cls-4{stroke:#1a1818;stroke-width:2px}.cls-3,.cls-4{stroke:#000}.cls-4{stroke-linecap:round}.cls-5,.cls-6{stroke:none}
+        </style>
+    </defs>
+    <g id="Group_190" data-name="Group 190" transform="translate(.239 1.002)">
+        <path id="Path_8" d="M13.765 6.9c-4.379-4.89-10.412 2.57-.021 8.708 10.421-6.086 4.424-13.576.021-8.708z" class="cls-1" data-name="Path 8" transform="translate(9.564 -5.32)"/>
+        <g id="Group_188" data-name="Group 188" transform="translate(22.037 11.078)">
+            <g id="Path_160" class="cls-2" data-name="Path 160">
+                <path d="M2.48.157c.183-.019 13.033-.343 13.19 0a71.566 71.566 0 0 1 2.473 18.137 9.068 9.068 0 1 1-18.137 0A69.033 69.033 0 0 1 2.48.157z" class="cls-5" transform="rotate(-14.98 17.828 2.34)"/>
+                <path d="M12.054 2c-2.634 0-6.082.067-8.01.114-2.227 9.1-2.04 16.043-2.038 16.114v.066a7.076 7.076 0 0 0 7.07 7.068 7.076 7.076 0 0 0 7.067-7.068v-.041c.002-.077.121-7.427-2.057-16.233A86.13 86.13 0 0 0 12.054 2m0-2c2.016 0 3.562.04 3.616.157 2.65 9.808 2.473 18.137 2.473 18.137a9.068 9.068 0 1 1-18.136 0S-.253 10.396 2.48.157C2.6.144 8.19 0 12.054 0z" class="cls-6" transform="rotate(-14.98 17.828 2.34)"/>
+            </g>
+            <path id="Line_44" d="M0 0v15.409" class="cls-3" data-name="Line 44" transform="rotate(-14.98 115.779 -44.195)"/>
+            <path id="Line_45" d="M0 0h8.805" class="cls-4" data-name="Line 45" transform="rotate(-14.98 176.464 -35.21)"/>
+            <path id="Path_161" d="M0 .142s3.6 3.289 7.6.913a7.583 7.583 0 0 1 7.667 0" class="cls-3" data-name="Path 161" transform="rotate(-14.98 40.849 -6.437)"/>
+        </g>
+        <g id="Group_189" data-name="Group 189" transform="translate(0 11.078)">
+            <g id="Path_160-2" class="cls-2" data-name="Path 160">
+                <path d="M2.48 27.205c.183.019 13.033.343 13.19 0a71.566 71.566 0 0 0 2.473-18.137 9.068 9.068 0 1 0-18.137 0A69.033 69.033 0 0 0 2.48 27.205z" class="cls-5" transform="rotate(-165.02 10.814 14.408)"/>
+                <path d="M12.054 25.362c.915 0 1.568-.008 2.032-.02 2.178-8.805 2.06-16.155 2.058-16.231v-.043A7.076 7.076 0 0 0 9.074 2a7.076 7.076 0 0 0-7.068 7.068v.033l-.001.033c-.003.072-.2 6.98 2.038 16.115 1.928.046 5.376.113 8.01.113m0 2c-3.864 0-9.454-.144-9.574-.157C-.253 16.966.007 9.068.007 9.068a9.068 9.068 0 0 1 18.136 0s.178 8.33-2.473 18.137c-.054.118-1.6.157-3.616.157z" class="cls-6" transform="rotate(-165.02 10.814 14.408)"/>
+            </g>
+            <path id="Line_44-2" d="M0 15.409V0" class="cls-3" data-name="Line 44" transform="rotate(-165.02 5.476 21.338)"/>
+            <path id="Line_45-2" d="M0 0h8.805" class="cls-4" data-name="Line 45" transform="rotate(-165.02 7.677 21.627)"/>
+            <path id="Path_161-2" d="M0 1.775S3.6-1.514 7.6.862a7.583 7.583 0 0 0 7.667 0" class="cls-3" data-name="Path 161" transform="rotate(-165.02 11.332 4.72)"/>
+        </g>
+    </g>
+</svg>

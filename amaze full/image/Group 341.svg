@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="66.012" height="47.314" viewBox="0 0 66.012 47.314">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none;stroke:#1a1818;stroke-miterlimit:10;stroke-width:2px}.cls-1{stroke-linecap:round}
+        </style>
+    </defs>
+    <g id="Group_341" data-name="Group 341" transform="translate(-255.789 -112.593)">
+        <path id="Path_475" d="M298.551 150.593h-36.762a5 5 0 0 1-5-5v-27a5 5 0 0 1 5-5h45a5 5 0 0 1 5 5v17.25" class="cls-1" data-name="Path 475"/>
+        <path id="Path_476" d="M265.957 136.956l6.423-8.467a.548.548 0 0 1 .855-.023l3.475 4.117a.549.549 0 0 0 .86-.027l6.2-8.389a.548.548 0 0 1 .872-.013l9.844 12.563a.547.547 0 0 1-.426.886l-27.662.232a.548.548 0 0 1-.441-.879z" class="cls-2" data-name="Path 476" transform="translate(2)"/>
+        <path id="Path_477" d="M301.3 143.407h11.75a7.75 7.75 0 0 1 7.75 7.75 7.75 7.75 0 0 1-7.75 7.75h-19" class="cls-1" data-name="Path 477"/>
+        <path id="Path_478" d="M306.473 137.845l-5.5 5.5 5.625 5.625" class="cls-1" data-name="Path 478"/>
+    </g>
+</svg>

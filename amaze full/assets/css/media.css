@@ -477,6 +477,7 @@
     background-color: #434343;
     text-align: center!important;
     margin-left: 610px!important;
+    margin-top: 25px;
 }
 .colshop
 {
@@ -514,6 +515,19 @@
 .shopmainrow
 {
   padding-top:10px;
+}
+.artdrawing3
+{
+  width: 110%;
+  height: 206px;
+  margin-left: -12px;
+}
+.artdrawing4
+{
+  width: 112%!important;
+  margin-left: 2px;
+  height: 206px;
+  margin-top: 16px;
 }
 } 
 @media (min-width: 992px)

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="196.895" height="56.454" viewBox="0 0 196.895 56.454">
+  <g id="Group_132" data-name="Group 132" transform="translate(-73.105 -31.05)">
+    <g id="Group_131" data-name="Group 131" transform="translate(-473.484 -135.109)">
+      <path id="Path_109" data-name="Path 109" d="M585.768,208.471s-10.343-8.3-18.511,3.156c-7.605,10.667-8.648,11.167-13.621,11.188,0,0,12.2,4.913,17.694-4.053C575.84,211.4,577.524,208.07,585.768,208.471Z" transform="translate(-0.276 -1.546)" fill="#390d00"/>
+      <path id="Path_110" data-name="Path 110" d="M594.2,223.362h0a8.772,8.772,0,0,1-11.885-4.169l-.229-.5a4.521,4.521,0,0,1,2.084-5.94h0a4.522,4.522,0,0,1,6.126,2.149Z" transform="translate(-1.376 -1.81)" fill="#390d00"/>
+      <path id="Path_111" data-name="Path 111" d="M584.08,201.594a18.9,18.9,0,0,0-10.247-.785l-9.628-28.849,3.006-5.8Z" transform="translate(-0.691)" fill="#ec8c39"/>
+      <path id="Path_112" data-name="Path 112" d="M546.59,204.611h0c5.176-1.292,10.111-5.476,13.246-11.231l9.827-20.325-3.143-6.9Z" fill="#ec8c39"/>
+    </g>
+    <text id="Amaze" transform="translate(128 67)" fill="#390d00" font-size="28" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Amaze</tspan></text>
+    <text id="arts" transform="translate(224 67)" fill="#390d00" font-size="28" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">arts</tspan></text>
+  </g>
+</svg>

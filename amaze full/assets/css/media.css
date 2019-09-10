@@ -118,18 +118,112 @@
       margin-left: 520px!important;
       margin-top: 20px;
     }
-    .fixedImg{
-      background-repeat: no-repeat;
-      background-position: center;
-      background-image: url('image/cat1.jpg');
-      background-size: cover;
+    .border
+    {
+      width: 408px;
+  height: 443px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
+  background-color: var(--white);
     }
-    .fixedImg1{
-      background-repeat: no-repeat;
-      background-position: center;
-      background-image: url('image/cat6.jpg');
-      background-size: cover;
+    .border1
+    {
+      width: 504px;
+      height: 259px;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
+      background-color: var(--white);
     }
+    .bannerdot
+    {
+      margin-top: 10pc;
+                    margin-left: 88px;
+                    width: 158px;
+    }
+    .banner2
+    {
+      height: 399px;
+                    margin-top: 10pc;
+                    margin-left: -47px;
+    }
+    .bannerheading
+    {
+      width: 448px;
+    height: 76px;
+    font-family: Raleway;
+    font-size: 34px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    margin-top: 19pc;
+    margin-left: 4pc;
+    }
+    .bannersubheading
+    {
+      width: 284px;
+      height: 64px;
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.59;
+      letter-spacing: normal;
+      text-align: left;
+      color: #222222;
+      margin-top: -31px;
+      margin-left: 69px;
+    }
+    .bannerside
+    {
+      width: 230px;
+    margin-top: -33pc;
+    margin-left: 31pc;
+    }
+    .bannerline
+    {
+      width: 100px;
+      margin-top: 10p;
+      margin-top: 20pc;
+      z-index: 1;
+      position: absolute;
+      margin-left: 14pc;
+    }
+    .bannercircle
+    {
+      width: 129px;
+      margin-top: -81px;
+      margin-left: 11pc;
+      z-index: -1;
+      position: absolute;
+    }
+    .banner
+    {
+      position: absolute;
+      z-index: 1;
+      width: 18pc;
+      margin-top: 282px;
+      margin-left: -13pc;
+      height: 275px;
+    }
+    .fitimage{
+      object-fit: cover;
+      height: 430px;
+      object-position: 80% 50%;
+      }
+      .fitimageshop{
+        object-fit: cover;
+        height: 86px;
+        object-position: 80% 50%;
+        }
+      .fitimages
+      {
+        object-fit: cover;
+        height: 430px;
+        object-position: 43% 50%;
+        }
     .selection
     {
       margin-left:0px!important;
@@ -321,12 +415,12 @@
     .fullimage
     {
       margin-left: -124px;
-    height: 434px;
-    width: 1353px!important;
+      height: 451px;
+      width: 1370px!important;
     }
   .listrow
   {
-    margin-left: 194px!important;
+    margin-left: 163px!important;
     margin-top: -307px!important;
   }
   .iconimage
@@ -465,7 +559,7 @@
 .borderbox2
 {
   width: 275px;
-  height: 335px;
+  height: 338px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
   background-color: var(--white);
 }
@@ -514,7 +608,7 @@
 }
 .shopmainrow
 {
-  padding-top:10px;
+  padding-top:16px;
 }
 .artdrawing3
 {
@@ -528,6 +622,10 @@
   margin-left: 2px;
   height: 206px;
   margin-top: 16px;
+}
+.footer
+{
+  margin-top: -100px;
 }
 } 
 @media (min-width: 992px)

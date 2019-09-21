@@ -1,241 +1,900 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Fresh</title>
+	<title>Amaze Example</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/header.css" id="applicationStylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/textmedia.css" id="applicationStylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/media.css" id="applicationStylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/footer.css" id="applicationStylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	<link href="\assets/fonts/iconfont/material-icons.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="assets/css/header.css" id="applicationStylesheet">
-  <link rel="stylesheet" type="text/css" href="assets/css/media.css" id="applicationStylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <style>
- 
+    
+	<style>
+
+.inner-addon { 
+    position: relative; 
+}
+
+
+.inner-addon .fa-search {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+.left-addon .fa-search  { left:  0px;}
+.right-addon .fa-search { right: 0px;}
+
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+.dropdown-content {
+  display: none;
+  position: fixed;
+  min-width: 1261px;
+  z-index: 1;
+}
+.dropdown-content >li{
+    display:inline-block;
+    float:left;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+ul.dropdown-content
+{
+    list-style-type: circle;
+}
+.nav-item
+{
+    margin-left: 10px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+	html{
+  overflow-x: hidden;
+  }
 </style>
+
+<script>
+	
+</script>
+
+</head>
 <body>
+<div class="containers">
+	<nav class="navbar fixed-top navbar-expand-md navbar-dark justify-content-between">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse dual-nav w-50 order-1 order-md-0">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown ">
+                    <a class="nav-link pl-0" id="sub-1" href="#">Artworks<i class="fa fa-angle-down"style="padding-left: 10px;"></i> <span class="sr-only">Artworks</span></a>
+                        <ul class="dropdown-content" style="list-style-type:circle;">
+                            <li><a href="#">Painting</a></li>
+                            <li><a href="#">Photography</a></li>
+                            <li><a href="#">Skulpture</a></li>
+                            <li><a href="#">Drawings</a></li>
+                            <li><a href="#">Digital arts</a></li>
+                            <li><a href="#">Collages</a></li>
+                            <li><a href="#">All our artworks</a></li>
+                        </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" id="sub-2" href="#">Artists<i class="fa fa-angle-down"style="padding-left: 10px;"></i> </a>
+                    <ul class="dropdown-content" style="list-style-type:circle;">
+                            <li> <a href="#">Top 50 sellers</a></li>
+								<li><a href="#">Emerging artist</a></li>
+								<li> <a href="#">Featured artist</a></li>
+								<li><a href="#">Painter</a></li>
+								<li><a href="#">Skulpture</a></li>
+								<li><a href="#">Photographer</a></li>
+								<li><a href="#">All our artists</a></li>
+                        </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gift cards</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sell your arts</a>
+                </li>
+            </ul>
+        </div>
+        <img src="image/Group 131.svg" class="mx-auto d-block text-center order-0 order-md-1 w-10 h-10" style="width: 21px;">
+        <a href="#" class="navbar-brand mx-auto d-block text-center order-0 order-md-1 w-20">Amaze arts</a>
+        <div class="navbar-collapse collapse dual-nav w-50 order-2">
+            <ul class="nav navbar-nav ml-auto">
+            	<form class="ml-3 my-auto d-inline w-20">
+		            <div class="inner-addon right-addon">
+			          <i class="fas fa-search"></i>
+			          <input type="text" class="form-control" placeholder="Search" />
+			        </div>
+		        </form>
+            	<li class="nav-item">
+                    <a class="nav-link" href="#">Join</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sign In</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href=""><i class="fas fa-heart"style="color:black;"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href=""><i class="fas fa-shopping-cart" ></i></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+</div>
+<div class="container bannercontainer">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="image/Repeat Grid 1.svg" class="bannerdot">
+                    <img src="image/banner2.jpg" class="banner">
+                </div>
+                <div class="col-md-6">
+                    <img src="image/Path 1.svg" class="bannerline">
+                    <img src="image/banner.jpg" class="img-responsive  banner2" >
+                    <img src="image/Ellipse 31.svg"class="bannercircle">
+                </div>
+            </div>
+        </div>
+     
+        <div class="col-md-6">
+                <h1 class="bannerheading">New Paintings</h1>
+                <p class="bannersubheading">Hang it to your wall now and make your 
+                        house more beautiful.</p>
+                        <img src="image/Path 2.svg" class="bannerside">
+                        <img src="image/Group 55.png" class="sidearrow">
+        </div>
+    </div>
+    <img src="image/Group 54.png"class="sidearrow1">
+</div>
+<img src="image/Path 24.png" class="sideimagecat1">
+<img src="image/Ellipse 121.png" class="sideimgcat">
+
 <div class="head">
-  <center>Collection of Categories<center>
+    <center>Collection of Categories</center>
 </div>
 <div class="container">
-<div class="row rowh"> 
-  <div class="column fixedImg">
-     <img src="image/cat1.jpg" style="width:100%;min-height: 99%;" class="thumbnail"> 
-  </div>
-  <div class="column">
-    <img src="image/cat2.jpg" class="camera thumbnail">
-    <img src="image/cat4.jpg" class="draw thumbnail">
-   </div>  
-  <div class="column">
-     <img src="image/xample.jpg" class="img thumbnail">
-     <div>
-        <img src="image/cat5.jpg" class="girly thumbnail">
-      </div>
-  </div>
-  <div class="column fixedImg1">
-   <img src="image/cat6.jpg" class="horse thumbnail"style="min-height: 99%;" > 
-  </div>
-</div>
-</div>
-<div class="container" id="container1">
-      <div class="row">
-      	<div class="col-md-4" id="select">
-          <img src="image/Path 56.png"style="margin-left: -139px;
-          margin-top: -74px;
-          width: 198px;" class="path"> 
-          <h4 style="z-index: 0;position: absolute;" class="selection">Selection of original <br>art works and paintings just for you!</h4>
-          </div>
-        <div class="col-md-8">
-        <div class="col-md-3 original">
-          <div class="thumbnail forest">
-               <img src="image/div1.jpg" alt="Lights" class="fimage" style="width:100%">
-          </div>
-          <h5 class="text"style="padding-left:-10px">Forest Nature</h5>
-          <span style="font-size: 13px">Dan Brown</span>
+    <div class="row rowh" style="margin-left: 22px!important;"> 
+        <div class="col-md-3 col-sm-3 border">
+          <img src="image/cat1.jpg" class=" img-responsive fitimage"> 
+          <p class="Paintings">Paintings</p>
         </div>
-        <div class="col-md-3">
-          <div class="thumbnail">
-              <img src="image/div2.jpg" alt="Nature" style="width:100%">
-            
+        <div class="col-md-6 col">
+          <div class="row">
+              <div class="col-md-8  border2">
+                <img src="image/cat2.jpg" class=" img-responsive camera">
+                <p class="photography">Photography</p>
+              </div>  
+              <div class="col-md-4 border3">
+                <img src="image/xample.jpg" class="img ">
+                <p class="animals">Animals & Birds</p>
+              </div> 
           </div>
-          <h5 class="text">Lord ganesh oil Painting</h5> 
-        </div>
-        <div class="col-md-3">
-          <div class="thumbnail style">
-              <img src="image/div3.jpg" alt="Fjords" style="width:100%" class="styleimage">
+          <div class="row">
+              <div class="col-md-4  border4">
+                <img src="image/cat4.jpg" class="img-responsive draw"> 
+                <p class="abstract">Abstract</p>
+              </div>  
+             <div class="col-md-2 border5">
+                <img src="image/cat5.jpg" class="girly"> 
+                <p class="nude">Nude</p>
+              </div>  
           </div>
-          <h5 class="text">Trendy portrait Girl</h5>
-        </div>
-          <div class="col-md-3">
-          <div class="thumbnail budha">
-              <img src="image/div4.jpg" alt="Fjords" class="budhaimg" style="width:100%">
           </div>
-          <h5 class="text">Budha Painting</h5>
-        </div>
+        <div class="col-md-3 border1">
+          <img src="image/cat6.jpg" class="img-responsive fitimages"style="min-height: 97%;" >
+          <p class="skulptures">Skulptures</p>
+        </div> 
       </div>
     </div>
-</div>
-<div class="container" id="cont">
+  </div>
+    <div class="container" id="container1">
+        <div class="row" style="margin-left: 22px;">
+            <div class="col-md-4 col-xs-4 col-sm-6" id="select">
+            <img src="image/Path 56.png"style="    margin-left: -170px;
+            margin-top: -74px;
+            width: 223px;" class="path"> 
+            <p style="z-index: 0;position: absolute;" class="selectheading">Selection of original <br>art works and paintings just for you!</p>
+            </div>
+          <div class="col-md-8 selectionsection">
+          <div class="col-md-3 original">
+            <div class="borderboxselect co">
+                 <img src="image/div1.jpg" alt="Lights" class="originalnature">
+            </div>
+            <p class="foresttxt co"style="padding-left:-10px">Forest Nature</p>
+            <p class="forestcreator"style="font-size: 13px">Dan Brown</p>
+          </div>
+          <div class="col-md-3 colgod ">
+            <div class="borderboxselect2">
+                <img src="image/div2.jpg" alt="Nature" class="img-responsive originalgod">
+            </div>
+            <p class="godtxt">Lord ganesh oil Painting</p> 
+            <p class="godcreator"style="font-size: 13px">Krishnah</p>
+          </div>
+          <div class="col-md-3">
+            <div class="borderboxselect3">
+                <img src="image/div3.jpg" alt="Fjords" class="img-responsive originaltrendy">
+            </div>
+            <p class="trendytxt">Trendy portrait Girl</p>
+            <p class="trendycreator" style="font-size: 13px">Sivaraj</p>
+          </div>
+            <div class="col-md-3">
+            <div class="borderboxselect4">
+                <img src="image/div4.jpg" alt="Fjords"class="img-responsive originalbudha">
+            </div>
+            <p class="budhatxt">Budha Painting</p>
+            <p class="budhacreator" style="font-size: 13px">Amir Mohan</p>
+          </div>
+        </div>
+        <img src="image/Group 105.png" class="img-responsive arrow">
+      </div>
+      <img src="image/Path 74.png" class="sideimg">
+  </div>
+  <div class="container" id="cont">
   <div class="shophead">
       <center>Shop for our Featured artist</center>
   </div>
-<div class="row" style="margin-top: 47px">
+<div class="row" style="margin-top: 47px;margin-left: 22px!important">
   <div class="col-md-3">
-    <div class="thumbnail">
-      <div class="row">
+    <div class="borderbox2">
+      <div class="row shopsrow">
         <div class="col-md-4 col-xs-4 col-sm-4">
           <img class="avatar" src="image/artist1.jpg">
         </div>
         <div class="col-md-4  col-xs-4 col-sm-4">
-          <p class="para">Laura
-          <br><span style="font-size: 13px">
-          Skulpture artist</span>
-        </p>
+          <p class="author1">Laura</p>
+           <p class="design1">Skulpture artist</p>
         </div>
-          <div class="col-md-4  col-xs-4 col-sm-4"> <i class="fas fa-heart"></i></div>
+          <div class="col-md-4  col-xs-4 col-sm-4"> <i class="fas fa-heart heartdesign"></i></div>
       </div>
       <div class="row">
-        <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6"style=    "padding-left: 15px;
-        padding-right: 14px;">
-            <img src="image/art11.jpg" style="width:100%"> 
+        <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 colshop"style=    "padding-left: 15px">
+            <img src="image/art11.jpg" style="width:100%" class="img-responsive artdraw"> 
         </div>
-        <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6"style="    padding-left: 14px;">
-            <img src="image/a2.jpg" style="width:100%">
+        <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 colshop"style="    padding-left: 14px;">
+            <img src="image/a2.jpg" style="width:100%" class="img-responsive artgirl">
         </div>
       </div>
-      <img src="image/a3.jpg" style="width:100%">
+      <img src="image/a3.jpg" style="width:100%;height:171px;" class="img-responsive artmoontree">
     </div>
   </div>
   <div class="col-md-3">
-    <div class="thumbnail">
-        <div class="row">
+    <div class="borderbox2">
+        <div class="row shopsrow">
             <div class="col-md-4  col-xs-4 col-sm-4">
             <img class="avatar" src="image/artist2.jpg" >
             </div>
             <div class="col-md-4  col-xs-4 col-sm-4">
-                <p class="para">Laura
-                    <br><span style="font-size: 13px">
-                    Skulpture artist</span>
-                  </p>
+                <p class="author2">Laura</p>
+                   <p class="design2"> Skulpture artist</p>
               </div>
-                <div class="col-md-4  col-xs-4 col-sm-4"> <i class="fas fa-heart"></i></div>
+                <div class="col-md-4  col-xs-4 col-sm-4"> <i class="fas fa-heart heartdesign"></i></div>
         </div>
         <div class="row">
-            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6" style="padding-left: 16px;
+            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 colshop" style="padding-left: 16px;
             padding-right: 0px;
             padding-top: 0px;">
-                <img src="image/artb1.jpg" style="width:100%;">  
+                <img src="image/artb1.jpg" class="img-responsive artman">  
             </div>
-            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6"  style="padding-left: 0px!important">
-                <img src="image/artb2.jpg" style="width:100%">
+            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 colshop"  style="padding-left: 0px!important">
+                <img src="image/artb2.jpg" style="width:100%" class="img-responsive artelephant">
             </div>
           </div>
-          <img src="image/artb3.jpg" style="width:100%">
+          <img src="image/artb3.jpg" style="width:100%;height:156px;" class="img-responsive artwoman">
     </div>
   </div>
   <div class="col-md-3">
-    <div class="thumbnail">
-        <div class="row">
+    <div class="borderbox2">
+        <div class="row shopsrow">
             <div class="col-md-4  col-xs-4 col-sm-4">
             <img class="avatar" src="image/artist1.jpg">
             </div>
             <div class="col-md-4  col-xs-4 col-sm-4">
-                <p class="para">Laura
-                    <br><span style="font-size: 13px">
-                    Skulpture artist</span>
-                  </p>
+                <p class="author3">Laura</p>
+                <p class="design3">Skulpture artist</p>
               </div>
-                <div class="col-md-4  col-xs-4 col-sm-4"> <i class="fas fa-heart"></i></div>
+                <div class="col-md-4  col-xs-4 col-sm-4"> <i class="fas fa-heart heartdesign"></i></div>
         </div>
         <div class="row">
-            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6" style="    padding-left: 15px;
+            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 colshop" style="padding-left: 15px;
             padding-right: 0px;">
-                <img src="image/artc1.jpg" style="width: 100%">    
+                <img src="image/statue.jpg" class="img-responsive artstatue">    
             </div>
-            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6" style="padding-left: 0px;">
-                <img src="image/artc2.jpg"  style="width: 100%">
+            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 colshop" style="padding-left: 0px;">
+                <img src="image/horses.jpg"   class="img-responsive arthorse">
             </div>
           </div>
-          <img src="image/artcc2.jpg" style="width: 100%" >
+          <img src="image/artcc2.jpg" class="artstylewoman">
     </div>
   </div>
   <div class="col-md-3">
-    <div class="thumbnail">
-        <div class="row">
+    <div class="borderbox2">
+        <div class="row shopsrow">
             <div class="col-md-4  col-xs-4 col-sm-4">
             <img class="avatar" src="image/artist2.jpg">
             </div>
             <div class="col-md-4  col-xs-4 col-sm-4">
-                <p class="para">Laura
-                    <br><span style="font-size: 13px">
-                    Skulpture artist</span>
-                  </p>
+                <p class="author4">Laura</p>
+                <p class="design4"> Skulpture artist</p>
               </div>
-                <div class="col-md-4  col-xs-4 col-sm-4"> <i class="fas fa-heart"></i></div>
+                <div class="col-md-4  col-xs-4 col-sm-4"> <i class="fas fa-heart heartdesign"></i></div>
         </div>
         <div class="row">
-            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6" style="padding-left: 15px;
+            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 colshop" style="padding-left: 15px;
             padding-right: 0px;">
-                <img src="image/artd1.jpg" style="width: 100%">     
+                <img src="image/artd1.jpg" style="width: 100%" class="img-responsive artshadow">     
             </div>
-            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6" style="padding-left: 0px;">
-                <img src="image/artd4.jpg" style="width: 100%">
+            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 colshop" style="padding-left: 0px;">
+                <img src="image/artd4.jpg" style="width: 100%" class="img-responsive artbridge">
             </div>
           </div>
-          <img src="image/artd13.jpg" style="width: 100%">
+          <img src="image/artd13.jpg" style="width: 100% ;height:159px;" class="img-responsive artlongbridge">
     </div>
   </div>
+  <img src="image/Group 105.png" class="img-responsive arrow2">
 </div>
-<button type="button" class="btn"><span class="btntext">view their works</span></button>
+<button type="button" class="btn1"><span class="btntext">View their Works</span></button>
 </div>
-<div class="container" id="container12" style="height:1200px">
-  <div class="row">
+<div class="container">
+<img src="image/Group 94.png" style="width:100%" class="wallgroup">
+  <div class="row rowindex">
   <div class="col-md-4">
-      <img src="image/Path 56.png"style="    margin-left: -46px;
+      <!-- <img src="image/Path 56.png"style="    margin-left: -46px;
       margin-top: 1px;
-      width: 198px;" class="path"> 
+      width: 198px;" class="path">   -->
        <h4 style="z-index: 0;position: absolute; margin-top: 124px;
-       margin-left: 1px;" class="selection">
+       margin-left: 1px;" class="get">
         Get into our recent best <br>art work collections</h4>
         <span class="recent">Every last two month best collection will be displayed over
             here. We have the separate crew to this best <br>
             collections of posts. </span>
-            <button type="button" class="btn btnrecent"><span class="btntext">View all</span></button>
+            <button type="button" class="btn btnframe"><span class="btntext">View all</span></button>
 
   </div>
-  <div class="col-md-4 col-xs-4 col-sm-4 solid frame" style=" width: 87%; margin-left: 19px;">
-    <div class="row">
+
+  <div class="col-md-4 col-xs-4 col-sm-4 ">
+     
+      <span class="dot dot1"></span>
+      
+<svg class="svgline">
+  <line x1="0" y1="0" x2="200" y2="120" style="stroke:rgb(255,0,0);stroke-width:1" />
+</svg>
+    <div class="row borderboxbrown ">
     <div class="col-md-6 col-xs-6 col-sm-6">
-         <img src="image/recent1.jpg" style="width:100%;" class="artdrawing">  
-         <img src="image/recent3.jpg" style="width:100%;"  class="artdrawing2">  
+         <img src="image/recent1.jpg" style="width:100%;" class="img-responsive artcolor">  
+         <img src="image/recent3.jpg" style="width:100%;"  class="img-responsive arttrendygirl">  
     </div>
-    <div class="col-md-6 col-xs-6 col-sm-6" class="fixedimages" >
-        <img src="image/r1.jpg" style="width:100%;" class="artdrawing3"> 
-
-    </div>
+    <div class="col-md-6 col-xs-6 col-sm-6" >
+        <img src="image/r1.jpg" class="img-responsive artblackstaute"> 
+     </div>
   </div>
+  <p class="besttxt">Best of <b>June</b></p><p class="datetxt">14 Collections<i class="fas fa-long-arrow-alt-right arrowicon"></i></p>
   
   </div>
-  <div class="col-md-4 col-xs-4 col-sm-4 solid frame1" style=" width: 87%; margin-left: 19px;">
-      <div class="row">
-          <div class="col-md-6 col-xs-6 col-sm-6" class="fixedimages" >
-              <img src="image/recent4.jpg" style="width:100%;"  class="artdrawing3"> 
+  <div class="col-md-4 col-xs-4 col-sm-4 ">
+     
+      <span class="dot dot2"></span>
+      <svg class="svgline1">
+        <line x1="0" y1="0" x2="200" y2="120" style="stroke:rgb(255,0,0);stroke-width:1" />
+      </svg>
+      <div class="row borderboxbrown2">
+          <div class="col-md-6 col-xs-6 col-sm-6">
+              <img src="image/recent4.jpg" style="width:100%;"  class="img-responsive artwhiteman"> 
       
           </div>
       <div class="col-md-6 col-xs-6 col-sm-6">
-           <img src="image/recent5.jpg" style="width:100%;" class="artdrawing">  
-           <img src="image/recent6.jpg" style="width:100%;"  class="artdrawing2">  
+           <img src="image/recent5.jpg" style="width:100%;" class="img-responsive artcolortree">  
+           <img src="image/recent6.jpg" style="width:100%;"  class="img-responsive artcolorhorse">  
       </div>
      
     </div>
+    <p class="besttxt1">Best of <b>May</b></p><p class="datetxt1">14 Collections<i class="fas fa-long-arrow-alt-right arrowicon1"></i></p> 
     </div>
   </div>
 </div> 
-<div class="container">
-  <img src="image/container.jpg" style="width:100%" class="heroimg">
+<div class="container containergift">
+  <img src="image/container.jpg" style="width:108%" class="heroimg">
+  <img src="image/Group 135.svg" class="amazelogo">
+  <img src="image/Group 135.svg" class="amazelogo1">
   <h3 class="gifthead">Gift to your Closer by Gift card option</h3>
-</div> 
+  <span class="giftside">Every best two month collection will be displayedover here. We have the
+    separate crew to this best collections of posts.  </span>
+    <div class="row " style="margin-top: -128px;" >
+    <div class="col-md-1 valencol">
+     <img src="image/Group 190.svg" class="valens">
+     <p class="events" style="    margin-left: 227px;">Valentines day</p>
+    </div>
+    <div class="col-md-1 birthdaycol">
+      <img src="image/Group 150.svg" class="icons">
+      <p class="events">Birthday</p>
+    </div>
+    <div class="col-md-1 mrgcol">
+      <img src="image/Group 151.svg" class="icons">
+      <p class="events">Marriage</p>
+    </div>
+    <div class="col-md-1 newcol">
+        <img src="image/Group 152.svg" class="bornicon">
+        <p class="events">New Born</p>
+       </div>
+       <div class="col-md-1 homecol">
+         <img src="image/Group 167.svg" class="icons">
+         <p class="events">New Home</p>
+       </div>
+       <div class="col-md-1 gradcol">
+         <img src="image/Group 158.svg" class="icons">
+         <p class="events">Graduation</p>
+       </div>
+       <div class="col-md-1 chirscol">
+        <img src="image/Group 168.svg" class="chirsticon">
+        <p class="events">Christmas</p>
+      </div>
+  </div> 
+</div>
+  <div class="container createcont" >
+    <div class="row" style="margin-left: 22px!important">
+    <div class="col-md-6">
+      <h1 class="create">Want to create new arts?<br>
+    Select our artist & share your thoughts!</h1>
+      <p class="createsub">Also we provide arts, based on your requirements. Just send your ample 
+          photos or your thoughts our professional artist they work for you.</p>
+          <button type="button" class="btn btnrecent" style="margin-top: -8px"><span class="btntext">View all</span></button>
+    </div>
+    <div class="col-md-6">
+      <img src="image/Group 242.svg" style="width:100%; margin-top:23px;">
+    </div>
+  </div>
+  </div>
+  <div class="container rectangle" style="z-index: 0; position:absolute">
+    <img src="image/Group 186.png" class="groupicons">
+    <div class="row" style="z-index: 0; position:absolute">
+        <img src="image/Ellipse 120.png" class="img-responsive circle1">
+        <img src="image/Ellipse 121.png" class="img-responsive circle2">
+        <img src="image/Ellipse 121.png" class="img-responsive circle3">
+
+      <div class="col-md-6">
+        <img src="image/artist1.jpg" class="avatar box2"> 
+        <p class="nametxt">Elisa</p>
+      </div>
+      <div class="col-md-6">
+         <h2 class="customerhead">Our Valuable Customers</h2> 
+        <p class="quotes">"Every best two month collection will be 
+          displayed over here. We have the separate 
+          crew to this best collections of posts."</p>
+        </div>
+    </div>
+</div>
+<div class="container emerge">
+    <div class="emergehead">
+        <center>Our Emerging artists</center>
+    </div>
+    <!-- <div class="row emergecol" style="margin-top: 47px; width:100%;">
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <div class="row">
+              <div class="col-md-4 col-xs-4 col-sm-4">
+                <img class="avatar" src="image/artist1.jpg">
+              </div>
+              <div class="col-md-4  col-xs-4 col-sm-4">
+                <p class="para">Laura
+                <br><span style="font-size: 13px">
+                Skulpture artist</span>
+              </p>
+              </div>
+                <div class="col-md-4  col-xs-4 col-sm-4"> <i class="fas fa-heart"></i></div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6"style=    "padding-left: 15px;
+              padding-right: 14px;">
+                  <img src="image/art11.jpg" style="width:100%"> 
+              </div>
+              <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6"style="    padding-left: 14px;">
+                  <img src="image/a2.jpg" style="width:100%">
+              </div>
+            </div>
+            <img src="image/a3.jpg" style="width:100%">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+              <div class="row">
+                  <div class="col-md-4  col-xs-4 col-sm-4">
+                  <img class="avatar" src="image/artist2.jpg" >
+                  </div>
+                  <div class="col-md-4  col-xs-4 col-sm-4">
+                      <p class="para">Laura
+                          <br><span style="font-size: 13px">
+                          Skulpture artist</span>
+                        </p>
+                    </div>
+                      <div class="col-md-4  col-xs-4 col-sm-4"> <i class="fas fa-heart"></i></div>
+              </div>
+              <div class="row">
+                  <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6" style="padding-left: 16px;
+                  padding-right: 0px;
+                  padding-top: 0px;">
+                      <img src="image/artb1.jpg" style="width:100%;">  
+                  </div>
+                  <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6"  style="padding-left: 0px!important">
+                      <img src="image/artb2.jpg" style="width:100%">
+                  </div>
+                </div>
+                <img src="image/artb3.jpg" style="width:100%">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+              <div class="row">
+                  <div class="col-md-4  col-xs-4 col-sm-4">
+                  <img class="avatar" src="image/artist1.jpg">
+                  </div>
+                  <div class="col-md-4  col-xs-4 col-sm-4">
+                      <p class="para">Laura
+                          <br><span style="font-size: 13px">
+                          Skulpture artist</span>
+                        </p>
+                    </div>
+                      <div class="col-md-4  col-xs-4 col-sm-4"> <i class="fas fa-heart"></i></div>
+              </div>
+              <div class="row">
+                  <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6" style="    padding-left: 15px;
+                  padding-right: 0px;">
+                      <img src="image/artc1.jpg" style="width: 100%">    
+                  </div>
+                  <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6" style="padding-left: 0px;">
+                      <img src="image/artc2.jpg"  style="width: 100%">
+                  </div>
+                </div>
+                <img src="image/artcc2.jpg" style="width: 100%" >
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+              <div class="row">
+                  <div class="col-md-4  col-xs-4 col-sm-4">
+                  <img class="avatar" src="image/artist2.jpg">
+                  </div>
+                  <div class="col-md-4  col-xs-4 col-sm-4">
+                      <p class="para">Laura
+                          <br><span style="font-size: 13px">
+                          Skulpture artist</span>
+                        </p>
+                    </div>
+                      <div class="col-md-4  col-xs-4 col-sm-4"> <i class="fas fa-heart"></i></div>
+              </div>
+              <div class="row">
+                  <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6" style="padding-left: 15px;
+                  padding-right: 0px;">
+                      <img src="image/artd1.jpg" style="width: 100%">     
+                  </div>
+                  <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6" style="padding-left: 0px;">
+                      <img src="image/artd4.jpg" style="width: 100%">
+                  </div>
+                </div>
+                <img src="image/artd13.jpg" style="width: 100%">
+          </div>
+        </div>
+      </div> -->
+      <div class="row emergecol" style="margin-top: 47px;margin-left: 22px;!important">
+        <div class="col-md-3">
+          <div class="borderbox2">
+            <div class="row shopsrow">
+              <div class="col-md-4 col-xs-4 col-sm-4">
+                <img class="avatar" src="image/artist1.jpg">
+              </div>
+              <div class="col-md-4  col-xs-4 col-sm-4">
+              <p class="author1">Laura</p>
+               <p class="design1"> Skulpture artist</p>
+              </div>
+          
+            </div>
+            <div class="row">
+              <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 colshop"style=    "padding-left: 15px;
+              padding-right: 14px;">
+                  <img src="image/art11.jpg" class="img-responsive artdraw"> 
+              </div>
+              <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 colshop"style="    padding-left: 14px;">
+                  <img src="image/a2.jpg" class="img-responsive artgirl">
+              </div>
+            </div>
+            <img src="image/a3.jpg" class="artmoontree">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="borderbox2">
+              <div class="row shopsrow">
+                  <div class="col-md-4  col-xs-4 col-sm-4">
+                  <img class="avatar" src="image/artist2.jpg" >
+                  </div>
+                  <div class="col-md-4  col-xs-4 col-sm-4">
+                    <p class="author1">Laura</p>
+                    <p class="design1"> Skulpture artist</p>
+                    </div>
+                     
+              </div>
+              <div class="row">
+                  <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 colshop" style="padding-left: 16px;
+                  padding-right: 0px;
+                  padding-top: 0px;">
+                      <img src="image/artb1.jpg" class="img-responsive artman">  
+                  </div>
+                  <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 colshop"  style="padding-left: 0px!important">
+                      <img src="image/artb2.jpg" class="img-responsive artelephant">
+                  </div>
+                </div>
+                <img src="image/artb3.jpg" class="img-responsive artwoman">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="borderbox2">
+              <div class="row shopsrow">
+                  <div class="col-md-4  col-xs-4 col-sm-4">
+                  <img class="avatar" src="image/artist1.jpg">
+                  </div>
+                  <div class="col-md-4  col-xs-4 col-sm-4">
+                    <p class="author1">Laura</p>
+                    <p class="design1"> Skulpture artist</p>
+                    </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 colshop" style="padding-left: 15px;
+                  padding-right: 0px;">
+                      <img src="image/statue.jpg" class="img-responsive artstatue">    
+                  </div>
+                  <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 colshop" style="padding-left: 0px;">
+                      <img src="image/horses.jpg" class="img-responsive arthorse">
+                  </div>
+                </div>
+                <img src="image/artcc2.jpg" class="img-responsive artstylewoman">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="borderbox2">
+              <div class="row shopsrow">
+                  <div class="col-md-4  col-xs-4 col-sm-4">
+                  <img class="avatar" src="image/artist2.jpg">
+                  </div>
+                  <div class="col-md-4  col-xs-4 col-sm-4">
+                    <p class="author1">Laura</p>
+                    <p class="design1"> Skulpture artist</p>
+                    </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 colshop" style="padding-left: 15px;
+                  padding-right: 0px;">
+                      <img src="image/artd1.jpg" class="img-responsive artshadow">     
+                  </div>
+                  <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 colshop" style="padding-left: 0px;">
+                      <img src="image/artd4.jpg" class="img-responsive artbridge">
+                  </div>
+                </div>
+                <img src="image/artd13.jpg" class="img-responsive artlongbridge">
+          </div>
+        </div>
+        <img src="image/Group 105.png" class="img-responsive arrow3">
+      </div>
+      <button type="button" class="btnemerge"><span class="btntext">View their Works</span></button>
+  </div>
+  <div class="container">
+      <div class="recentview"> 
+          <center>Recently viewed</center>
+      </div> 
+      <div class="row recentrow">
+        <div class="col-md-2 tgirl">
+            <div class="borderbox">
+                <img src="image/trendygirl.jpg" alt="Nature"  class="img-responsive recentgirl">              
+            </div>
+            <p class="recentext">Trendy portrait girl </p>
+            <div class="col-md-6">
+                <p class="rate">$5000</p>
+               </div>
+              
+             <div class="col-md-4 recentheartcol">
+               <i class="fas fa-heart recentheart" style="    margin-left: -40px;!important"></i>
+              </div> 
+              <div class="col-md-2">
+              <button class="btn btnsold"><p class="txtsold">Sold</p></button></div>
+           
+        </div>
+        <div class="col-md-2 ynature">
+            <div class="borderbox">
+                <img src="image/yellownature.jpg" alt="Nature" class="img-responsive recentyellow">
+            </div>
+            <p class="recentext">Budha Painting</p>
+            <div class="col-md-6">
+                <p class="rate">$5000</p>
+               </div>
+              
+             <div class="col-md-4 recentheartcol">
+               <i class="fas fa-heart recentheart"></i></div>
+               <div class="col-md-2">
+                <img src="image/Group 247.png" class="shopping">
+              </div> 
+        </div>
+        
+        <div class="col-md-2 cyclenature">
+            <div class="borderbox">
+                <img src="image/cycle.jpg" alt="Nature" class="img-responsive recentcycle">
+            </div>
+            <p class="recentext">Forest Nature</p> 
+            <div class="col-md-6">
+                <p class="rate">$5000</p>
+               </div>
+              
+             <div class="col-md-4 recentheartcol">
+               <i class="fas fa-heart recentheart"></i></div> 
+               <div class="col-md-2">
+                <img src="image/Group 247.png" class="shopping">
+              </div> 
+        </div>
+        <div class="col-md-2 natures">
+            <div class="borderbox">
+                <img src="image/r1.jpg" alt="Nature"  class="img-responsive recentgods">
+            </div>
+            <p class="recentext">Lord Ganesh oil Paintings</p>
+            <div class="col-md-6">
+               <p class="rate">$5000</p>
+              </div>
+             
+            <div class="col-md-4 recentheartcol">
+              <i class="fas fa-heart recentheart"></i></div>
+              <div class="col-md-2">
+                <img src="image/Group 247.png" class="shopping">
+              </div>   
+        </div>
+        <div class="col-md-2 treehouse">
+            <div class="borderbox">
+                <img src="image/tree.jpg" alt="Nature" class="img-responsive recenthouse">
+            </div>
+            <p class="recentext">Trendy portrait girl</p>
+            <div class="col-md-6">
+            <p class="rate">$5000 </p> </div>
+            <div class="col-md-4 recentheartcol">
+            <i class="fas fa-heart recentheart"></i>  </div>
+            <div class="col-md-2">
+              <img src="image/Group 247.png" class="shopping">
+            </div> 
+        </div>
+        <img src="image/Group 105.png" class="img-responsive arrow4">
+      </div>
+  </div>
+  <div class="container">
+    <img src="image/fullimage.jpg" class="fullimage">
+  <div class="container">
+    <div class="row listrow" style="z-index: 0; position: absolute; margin-top: -474px;">
+      <div class="col-md-4">
+        <img src="image/Group 341.svg" class="iconimage">
+        <p class="listheadings">Free Returns</p>
+        <p class="listdetails">Also we provide arts, based on 
+            your requirements. </p>
+      </div>
+      <div class="col-md-4">
+          <img src="image/Group 340.svg" class="iconimage">
+          <p class="listheadings">Secure Payment</p>
+          <p  class="listdetails">Also we provide arts, based on 
+              your requirements. </p>
+      </div>
+      <div class="col-md-4">
+          <img src="image/Group 345.svg" class="iconimage" style="    width: 25px!important;
+          height: 76px!important;
+      ">
+          <p class="listheadings">Best Artists</p>
+          <p class="listdetails">Also we provide arts, based on 
+              your requirements.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row footer">
+	<footer class="mainfooter" role="contentinfo">
+
+         <div class="col-md-3 col-sm-6" style="background:#ec8c39;width:504px;height:315px;max-width:1000px;" >
+		   <div class="container" >
+        <!--Column1-->
+        <div class="footer-pad" style="margin-top:50px">
+          <div id="Newsletter_Signup" >
+				<span>Newsletter Signup</span>
+				</div>
+				<div id="Every_best_two_month_collectio_A0_Text_108" style="margin-top:20px">
+				<span class="align-middle">Every best two month collection will be displayed over<br>here. We have the separate.</span>
+			</div>
+			<div class="form-group col-md-6">
+<input type="text" name="first_name" class="form-control form1" id="first_name" placeholder="Email ID" Required>
+<br>
+<br>
+<button type="button" class="btn btn-warning">Signup</button>
+</div>
+</div>
+		</div>
+      </div>
+      <div class="col-md-3 col-sm-6" style="width:254px"  >
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Customer services</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Legal notices</a></li>
+            <li><a href="#">General Terms and Conditions</a></li>
+            <li><a href="#">Customer testimonials</a></li>
+            <li><a href="#">My profile</a></li>
+            <li>
+              <a href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    	 <div class="col-md-3 col-sm-6" style="width:214px"   >
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Who we are?</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Our artists</a></li>
+            <li><a href="#">Magazine</a></li>
+            <li><a href="#">The team</a></li>
+            <li><a href="#">Our selection criteria</a></li>
+			<li><a href="#">FAQ</a></li>
+			<li><a href="#">Jobs</a></li>
+			<li><a href="#">Contact</a></li>
+            <li>
+              <a href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+	  <div class="col-md-3 col-sm-6" style="width:246px"   >
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>For Artists</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Why Sell on Amazeart</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Seller Support</a></li>
+            <li><a href="#">Apply to Sell</a></li>
+            <li><a href="#">How to Sell Art Online</a></li>
+            <li>
+              <a href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+	  
+  
+
+
+</footer>
+  </div>
+  <div class="row">
+    <div class="col-md-12 copy">
+        <p class="text-center">&copy; Copyright 2018 - Company Name.  All rights reserved.</p>
+    </div>
+</div>
+</body>
+</html>

@@ -25,29 +25,228 @@
   }
 }
 @media only screen and (min-width: 1200px) {
+  .paintingbannerimg
+  {
+    /* margin-left: -118px; */
+    width: 1369px;
+  }
+  .svgline
+  {
+    height: 38px!important;
+    margin-left: 244px!important;
+    margin-top: -9px!important;
+  }
+  .svgline1
+  {
+    height: 38px!important;
+    margin-left: 212px!important;
+    margin-top: -9px!important;
+  }
+  .svgline2
+  {
+    height: 38px!important;
+    margin-left: -336px!important;
+    margin-top: 96px!important;
+  }
+  .svgline3
+  {
+    height: 38px!important;
+    margin-left: -336px!important;
+    margin-top: 96px!important;
+  }
+  .arrowicon
+  {
+    margin-top: 1px;
+    margin-left: 10px;
+  }
+  .arrowicon1
+  {
+    margin-top: 1px;
+    margin-left: 10px;
+  }
+  .paintingheading
+  {
+    width: 486px;
+    height: 42px;
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: left;
+    margin-top: -123px;
+    color: #ffffff;
+    margin-left: 369px;
+  }
+  .breadcrumb
+  {
+    width: 181px;
+    height: 24px;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-top: -32px;
+  }
+    .border2
+  {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+    padding-top: 5px;
+    height: 184px;
+    width: 100px;
+    max-width: 307px;
+    margin-left: 10px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+ 
+  }  
+  .borderboxbrown
+{
+    width: 97%;
+    height: 236px;
+    margin-top: 0px;
+    margin-left: 100px!important;
+    max-width: 81.5%;
+    box-shadow: -5px 5px 10px 0 rgba(0, 0, 0, 0.16);
+    border-style: solid;
+    border-color: #421e00;
+    border-width: 6px;
+    background-color: #fff6ef;
+}
+.borderboxbrown2
+{
+  width: 97%;
+  height: 236px;
+  margin-top: 0px;
+  margin-left: 55px!important;
+  max-width: 81.5%;
+  box-shadow: -5px 5px 10px 0 rgba(0, 0, 0, 0.16);
+  border-style: solid;
+  border-color: #421e00;
+  border-width: 6px;
+  background-color: #fff6ef;
+}
+   .border4
+  {
+    /* padding-left: 0px!important;
+    padding-right: 0px!important; */
+    /* margin-left: 10px;
+    max-width: 100%!important; */
+    /* width: 36%!important; */
+    height: 183px;
+    /* margin-top: 10px; */
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+  } 
+  .border3
+  {
+    padding-top: 5px!important;
+    margin-left: 10px;
+    padding-left: 0px!important;
+    max-width: 110%!important;
+    width: 36%!important;
+    height: 184px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+ 
+  }  
+  .borderbox2:hover
+  {
+    width: 246px;
+    height: 338px;
+    box-shadow: 0 14px 14px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fbfcfe;
+  }
+  .borderboxselect:hover
+  {
+    width: 238px;
+    height: 163px;
+    box-shadow: 0 14px 14px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fbfcfe;
+  }
+  .co
+  {
+    color:#d97113!important;
+  }
+  .borderboxselect2:hover
+  {
+    width: 148px;
+    height: 163px;
+    box-shadow: 0 14px 14px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fbfcfe;
+  }
+  .borderboxselect3:hover
+  {
+    width: 172px;
+    height: 163px;
+    box-shadow: 0 14px 14px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fbfcfe;
+    
+  }
+  .borderboxselect4:hover
+  {
+    width: 155px;
+    height: 163px;
+    box-shadow: 0 14px 14px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fbfcfe;
+  }
+  .borderbox:hover
+  {
+    width: 216px;
+    height: 241px;
+  box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.16);
+  background-color:#fbfcfe ;
+  }
   .img
   {
-        width: 84%!important;
-    margin-left: 40px;
-    height: 49.5%;
+    object-fit: cover;
+    height: 173px!important;
+    object-position: 80% 50%;
+    margin-left: 5px;
+    width: 193px!important;
+    max-width: fit-content;
+    max-width: 500px!important;
   }
   .camera
   {
-        width: 115%!important;
+    object-fit: cover;
+    height: 173px!important;
+    object-position: 80% 50%;
+    margin-left: 5px;
+    width: 297px!important;
+    max-width: fit-content;
+    max-width: 500px!important;
   }
   .draw
   {
-        width: 91%!important;
-    height: 47%;
-    margin-top: -11px!important;
+    object-fit: cover;
+    height: 170px!important;
+    object-position: 80% 50%;
+    margin-top: 7px;
+    width: 176px!important;
+    max-width: fit-content;
+    max-width: 500px!important;
+    margin-left: 6px;
   }
   .girly
   {
-        margin-left: -26px;
-    margin-top: -6px!important;
-    height: 204px!important;
-    width: 108%!important;
-}
+    object-fit: cover;
+    height: 173px!important;
+    object-position: 80% 50%;
+    margin-left: -9px;
+    width: 311px!important;
+    max-width: fit-content;
+    max-width: 500px!important;
+    margin-top: 6px;
+  }
    .horse
    {
         margin-left: -4px;
@@ -55,9 +254,10 @@
    }
    #container1
    {
-   	margin-top: 80px!important;
-     width:100%;
-     height: 427px;
+    margin-top: 80px!important;
+    width: 1349px!important;
+    height: 354px;
+    max-width: 1369px!important;
    }
    .forest
    {
@@ -74,8 +274,19 @@
    .style
    {
    	    height: 202px!important;
-    margin-left: -22px;
-    margin-right: -13px;
+         margin-left: -19px;
+         margin-right: 11px;
+
+   }
+   .selectionsection
+   {
+    margin-top: 65px;
+    margin-left: -19px;
+   }
+   .colgod
+   {
+    width: 203px!important;
+    margin-left: -13px;
 
    }
    .budha
@@ -83,8 +294,9 @@
 
     height: 199px;
     margin-top: 1px;
-    margin-right: 26px;
-        margin-left: -7px;
+    margin-right: 54px;
+    margin-left: -30px;
+
    }
    .budhaimg
    {
@@ -96,8 +308,8 @@
    }
    .col-md-8 
 	{
-    width: 62.666667%;
-    margin-top: 110px!important;
+    /* width: 62.666667%;
+    margin-top: 110px!important; */
   }	
   .btn
     {
@@ -108,30 +320,52 @@
       text-align: center!important;
       margin-left: 609px!important;
     }
+      
+    
     .btn1
     {
-      width: 141px!important;
+      width: 147px!important;
       height: 42px!important;
       border-radius: 2px!important;
       background-color: #434343;
       text-align: center!important;
-      margin-left: 520px!important;
-      margin-top: 20px;
+      margin-left: 480px!important;
+      margin-top: 31px
+    }
+    .border5
+    {
+      /* margin-left: 10px; */
+      /* padding-left: 0px;
+      padding-right: 0px; */
+      margin-top: 8px;
+      /* max-width: 396px!important;
+      width: 323px!important; */
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
+      background-color: #ffffff;
     }
     .border
     {
       width: 408px;
-  height: 443px;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
-  background-color: var(--white);
+      height: 376px;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
+      background-color: var(--white);
+      border: 0px solid white !important;
+      padding-top: 0px;
+      position: static;
+      min-height: 11px;
+      padding-right: 0px!important;
+      padding-left: 0px!important;
+      max-width: 262px!important;
     }
     .border1
     {
-      width: 504px;
-      height: 259px;
+      padding-left: 0px!important;
+    padding-right: 0px!important;
+    padding-top: 4px;
+    margin-left: -25px;
       box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
-      background-color: var(--white);
-    }
+      background-color: #ffffff;
+    } 
     .bannerdot
     {
       margin-top: 10pc;
@@ -140,7 +374,7 @@
     }
     .banner2
     {
-      height: 399px;
+      height: 412px!important;
                     margin-top: 10pc;
                     margin-left: -47px;
     }
@@ -158,7 +392,7 @@
     text-align: left;
     color: #000000;
     margin-top: 19pc;
-    margin-left: 4pc;
+    margin-left: 0 pc;
     }
     .bannersubheading
     {
@@ -174,13 +408,17 @@
       text-align: left;
       color: #222222;
       margin-top: -31px;
-      margin-left: 69px;
+      margin-left: 0px;
+    }
+    .bannercontainer
+    {
+      margin-top: -100px;
     }
     .bannerside
     {
-      width: 230px;
-    margin-top: -33pc;
-    margin-left: 31pc;
+      width: 259px;
+      margin-top: -29pc;
+      margin-left: 29pc;
     }
     .bannerline
     {
@@ -189,13 +427,13 @@
       margin-top: 20pc;
       z-index: 1;
       position: absolute;
-      margin-left: 14pc;
+      margin-left: 10pc;
     }
     .bannercircle
     {
       width: 129px;
-      margin-top: -81px;
-      margin-left: 11pc;
+      margin-top: -96px;
+      margin-left: 7pc; 
       z-index: -1;
       position: absolute;
     }
@@ -203,16 +441,493 @@
     {
       position: absolute;
       z-index: 1;
-      width: 18pc;
+      width: 17pc;
       margin-top: 282px;
       margin-left: -13pc;
-      height: 275px;
+      height: 231px;
     }
+    .heartdesign
+    {
+      padding-left: 32px;
+      margin-top: 10px;
+  }
+    .shopsrow
+    {
+      padding-top: 10px;
+    }
+    .originalnature
+    {
+      object-fit: cover;
+      height: 150px!important;
+      object-position: 80% 50%; 
+      margin-left: 6px;
+      width:225px!important;
+    }
+    .originalgod
+    {
+      object-fit: cover;
+      height: 150px!important;
+      object-position: 80% 50%; 
+      margin-left: 6px;
+      width:136px!important;
+
+    }
+    .originalbudha
+    {
+      object-fit: cover;
+      height: 150px!important;
+      object-position: 80% 50%; 
+      margin-left: 6px;
+      width:142px!important;
+
+    }
+    .originaltrendy
+    {
+      object-fit: cover;
+      height: 150px!important;
+      object-position: 80% 50%; 
+      margin-left: 6px;
+      width:160px!important;
+    }
+    .artwhiteman
+    {
+      object-fit: cover;
+      height: 204px!important;
+      object-position: 80% 50%;
+      width: 143px!important;
+      margin-top: 10px;
+      margin-left: -5px;
+      z-index: 0;
+      position: absolute;
+    }
+    .artcolortree
+    {
+      object-fit: cover;
+      height: 106px!important;
+      object-position: 80% 50%;
+      width: 107px!important;
+      margin-top: 10px;
+      margin-left: 5px;
+      z-index: 0;
+      position: absolute;
+    }
+    .artcolorhorse
+    {
+      object-fit: cover;
+      height: 90px!important;
+      object-position: 80% 50%;
+      width: 109px!important;
+      margin-top: 126px;
+      margin-left: 5px;
+      max-width: 120%!important;
+    }
+    .artcolor
+    {
+      object-fit: cover;
+    height: 104px!important;
+    object-position: 80% 50%;
+    width: 103px!important;
+    margin-top: 10px;
+    margin-left: -4px;
+    z-index: 0;
+    position: absolute;
+    }
+    .arttrendygirl
+    {
+      object-fit: cover;
+      height: 89px!important;
+      object-position: 80% 50%;
+      width: 103px!important;
+      margin-top: 125px;
+      margin-left: -4px;
+      max-width: 120%!important;  
+    }
+    .artblackstaute
+    {
+      object-fit: cover;
+      height: 204px!important;
+      object-position: 80% 50%;
+      width: 143px!important;
+      margin-top: 10px;
+      margin-left: -25px;
+      z-index: 0;
+      position: absolute;
+    }
+    .shopping
+    {
+      width: 14px;
+      margin-left: 180px;
+      margin-top: -86px;
+  
+    }
+    .chirscol
+    {
+      margin-left: 21px;
+    }
+    .gradcol
+    {
+      margin-left: 19px;
+    }
+    .homecol
+    {
+      margin-left: 18px;
+    }
+    .newcol
+    {
+      margin-left: 10px;
+    }
+    .mrgcol{
+      margin-left: 12px;
+    }
+    .birthdaycol
+    {
+      margin-left: 23px;
+    }
+    .valencol
+    {
+      margin-left: -17px;
+    }
+    .sidearrow
+    {
+      margin-left: 32pc;
+    width: 49px;
+    margin-top: -12pc;
+    }
+    .sidearrow1
+
+    {
+      width: 49px;
+      margin-top: -28pc;
+      margin-left: -4pc;
+    }
+    .sideimagecat1
+    {
+      width: 77px;
+      margin-top: -45px;
+      z-index: 0;
+      position: absolute;
+      margin-left: 0pc;
+    }
+    .sideimgcat
+    {
+      width: 31px;
+      margin-top: 106px;
+      z-index: 0;
+      position: absolute;
+      margin-left: 7pc;
+  
+    }
+     .sideimg
+    {
+      object-fit: cover;
+      object-position: 80% 50%;
+      margin-top: -278px;
+      height: 21px;
+      margin-left: 72pc;
+    } 
+.artmoontree
+    {
+      object-fit: cover;
+      height: 150px!important;
+      object-position: 80% 50%;
+      margin-left: 10px;
+      width:225px!important;
+    }
+    .artgirl
+    {
+      object-fit: cover;
+      height: 105px!important;
+      object-position: 80% 50%;
+      margin-left: -11px;
+    }
+    .artdraw
+    {
+      object-fit: cover;
+      height: 105px!important;
+      object-position: 80% 50%;
+      margin-left: 4px;
+      width: 189px!important;
+    }
+    .artman
+    {
+      object-fit: cover;
+      height: 105px!important;
+      object-position: 80% 50%;
+      margin-left: 4px;
+      width: 189px!important;
+    }
+    .artelephant
+    {
+      object-fit: cover;
+      height: 105px!important;
+      object-position: 80% 50%;
+      margin-left: 4px;
+      width: 108px!important;
+    }
+
+    .artwoman
+    {
+      object-fit: cover;
+      height: 150px!important;
+      object-position: 80% 50%;
+      margin-left: 10px;
+      width:225px!important;
+    }
+    .artstatue
+    {
+      object-fit: cover;
+      height: 105px!important;
+      object-position: 80% 50%;
+      margin-left: 4px;
+      width: 189px!important;
+    }
+    .arthorse
+    {
+      object-fit: cover;
+      height: 105px!important;
+      object-position: 80% 50%;
+      margin-left: -18px;
+      width: 108px!important;
+      max-width: none!important;
+    }
+    .artstylewoman
+    {
+      object-fit: cover;
+      height: 150px!important;
+      object-position: 80% 50%;
+      margin-left: 10px;
+      width:225px!important;
+    }
+    .artshadow
+    {
+      object-fit: cover;
+      height: 105px!important;
+      object-position: 80% 50%;
+      margin-left: 4px;
+      width: 189px!important;
+    }
+    .artbridge
+    {
+      object-fit: cover;
+      height: 105px!important;
+      object-position: 80% 50%;
+      margin-left: -18px;
+      width: 108px!important;
+      max-width: none!important;
+    }
+    .artlongbridge
+    {
+      object-fit: cover;
+      height: 150px!important;
+      object-position: 80% 50%;
+      margin-left: 10px;
+      width:224px!important;
+    }
+    .btnsold
+    {
+      width: 50px!important;
+      height: -12pc!important;
+    
+      height: 18px!important;
+      margin-top: -90px;
+  
+      margin-left: 149px!important;
+    }
+    .recentheart:hover
+    {
+        color:#d97113;
+    }
+    .recentheart
+    {
+      width: 22.9px;
+      height: 19.4px;
+      color: #c2c2c2;
+    }
+    .recentheartcol
+    {
+      margin-top: -41px;
+      margin-left: 156px;
+    }
+    .txtsold
+    {
+      margin-top: -4px;
+    width: 32px;
+    height: 21px;
+    font-family: SegoeUI;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+    
+    }
+    .recentgirl
+    {
+      object-fit: cover;
+      height: 234px!important;
+      object-position: 80% 50%;
+      padding-top: 7px;
+      padding-left: 7px;
+      width: 209px!important;
+    }
+    .recentyellow
+    {
+      object-fit: cover;
+      height: 234px!important;
+      object-position: 80% 50%;
+      padding-top: 7px;
+      padding-left: 7px;
+      width: 209px!important;
+    }
+    .recentcycle
+    {
+      object-fit: cover;
+      height: 234px!important;
+      object-position: 80% 50%;
+      padding-top: 7px;
+      padding-left: 7px;
+      width: 209px!important;
+    }
+    .recentgods
+    {
+      object-fit: cover;
+      height: 234px!important;
+      object-position: 80% 50%;
+      padding-top: 7px;
+      padding-left: 7px;
+      width: 209px!important;
+    }
+    .recenthouse
+    {
+      object-fit: cover;
+      height: 234px!important;
+      object-position: 80% 50%;
+      padding-top: 7px;
+      padding-left: 7px;
+      width: 209px!important;
+    }
+    .arrow
+    {
+      object-fit: cover;
+      height: 54px!important;
+      object-position: 80% 50%;
+      margin-left: 72pc;
+      margin-top: 8pc;
+      z-index: 0;
+      position: absolute;
+    }
+    .arrow2
+    {
+      object-fit: cover;
+    height: 55px!important;
+    object-position: 80% 50%;
+    margin-left: 67pc;
+    margin-top: 11pc;
+    z-index: 0;
+    position: absolute;
+    }
+    .arrow3
+    {
+      object-fit: cover;
+    height: 55px!important;
+    object-position: 80% 50%;
+    margin-left: 70pc;
+    margin-top: 10pc;
+    z-index: 0;
+    position: absolute;
+    }
+    .arrow4
+    {
+      object-fit: cover;
+    height: 55px!important;
+    object-position: 80% 50%;
+    margin-left: 71pc;
+    margin-top: 6pc;
+    z-index: 0;
+    position: absolute;
+    }
+    .circle1
+    {
+      object-fit: cover;
+      height: 40px!important;
+      object-position: 80% 50%;
+      margin-left: 3pc;
+      margin-top: 6pc;
+      z-index: 0;
+      position: absolute;
+    }
+    .circle2
+    {
+      object-fit: cover;
+      height: 26px!important;
+      object-position: 80% 50%;
+      margin-left: 108px;
+      margin-top: 146px;
+      z-index: 0;
+      position: absolute;
+    }
+    .circle3
+    {
+      object-fit: cover;
+      height: 15px!important;
+      object-position: 80% 50%;
+      margin-left: 122px;
+      margin-top: 117px;
+      z-index: 0;
+      position: absolute;
+    }
+    .box2
+    {
+      vertical-align: middle;
+      width: 65px!important;
+      height: 68px!important;
+      border-radius: 50%;
+      margin-bottom: 4px;
+      margin-left: 3pc;
+      object-fit: cover;
+      margin-top: 97px;
+  
+    }
+    .dot1
+    {
+      height: 6px;
+      width: 6px;
+      background-color:#421e00;
+      border-radius: 50%;
+      display: inline-block;
+      margin-top: 95px;
+      margin-left: 15pc;
+    }
+    .dot2
+    {
+      height: 6px;
+      width: 6px;
+      background-color:#421e00;
+      border-radius: 50%;
+      display: inline-block;
+        margin-top: 59px;
+    margin-left: 13pc;
+    }
+
     .fitimage{
       object-fit: cover;
-      height: 430px;
+      height: 365px!important;
       object-position: 80% 50%;
+      margin-left: 6px;
+      margin-top: 5px;
       }
+      .fitimages{
+        object-fit: cover!important;
+        height: 368px!important;
+        object-position: 80% 50%!important;
+        min-height: 98.5%;
+        width: 98.5%;
+        padding-left: 5px;
+    }
+        }
       .fitimageshop{
         object-fit: cover;
         height: 86px;
@@ -238,19 +953,28 @@
     }
     .btnrecent
     {
-        margin-left: 88px!important;
+        margin-left: -35px!important;
         width: 83px;
   height: 28px;
   border-radius: 2px;
   background-color: #ec8c39;
     }
-    .frame
+    .btnframe
+    {
+      margin-top: 17pc;
+        margin-left: 0px!important;
+        width: 83px;
+      height: 28px;
+      border-radius: 2px;
+      background-color: #ec8c39;
+    }
+    /* .frame
     {
         
         margin-top: 160px;
         margin-left: 123px!important;
         max-width: 23.5%;
-    }        
+    }         */
     .frame1
     {
         max-width: 23%;
@@ -265,8 +989,10 @@
     }
     .heroimg
     {
-      margin-left: -107px;
-      width: 119%!important;
+      margin-left: -119px;
+      width: 122%!important;
+      margin-top: -60px;
+  
     }
     .giftside
     {
@@ -332,25 +1058,26 @@
     line-height: 1.59;
     letter-spacing: normal;
     text-align: left;
-    margin-top: -88px;
+    margin-top: -80px;
     margin-left: -36px;
     }
     .rectangle
     {
-      width: 613px;
-      height: 275px;
+      width: 613px!important;
+      height: 253px;
       border-radius: 15px;
       background-color: #ec8c39;
-      margin-top: 80px;
-      margin-left: 341px;
+      margin-top: 61px;
+      margin-left: 341px!important;
     }
     .emerge
     {
-      background-color: #fff6ef;
-      width: 1360px;
-      margin-left: -4px;
-      margin-top: 226px;
-      height:735px;
+        background-color: #fff6ef;
+        width: 1349px!important;
+        margin-left: -4px;
+        margin-top: 190px;
+        height: 769px;
+        max-width: 2000px;
     }
     .emergehead
     {
@@ -367,7 +1094,7 @@
     .emergecol
     {
       width: 90%!important;
-      margin-left: 77px;
+      margin-left: 77px!important;
   
     }
     .recentview
@@ -384,7 +1111,8 @@
     }
     .recentrow
     {
-      margin-top:44px;
+      margin-top: 44px;
+      width: 1396px;
     }
     .tgirl
     {
@@ -473,6 +1201,7 @@
   text-align: left;
   color: #ff4e4e;
   margin-top: -14px;
+  margin-left: -14px;
   }
   .box
 {
@@ -482,7 +1211,7 @@
 }
 .rowindex
 {
-  
+  margin-left: 22px;
   margin-top: -476px;
 }
 .customerhead
@@ -505,6 +1234,30 @@
   width: 39px!important;
   margin-left:251px;
 }
+.valens
+{
+  height: 49px;
+  width: 26px!important;
+  margin-left:251px;
+  margin-top: -247px;
+
+}
+.bornicon
+{
+  padding-top: 10px;
+  height: 60px;
+  width: 25px!important;
+  margin-left: 251px;
+  margin-top: -247px;
+}
+.chirsticon
+{
+  padding-top: 10px;
+  height: 60px;
+  width: 25px!important;
+  margin-left: 251px;
+  margin-top: -247px;
+}
 .createcont
 {
   margin-top: 144px;
@@ -512,9 +1265,13 @@
 .events
 {
   margin-top: -78px!important;
-  margin-left: 233px;
+  margin-left: 248px;
   width: 92px;
 
+}
+.ml-auto
+{
+  margin-left: 78px!important;
 }
 .groupicons
 {
@@ -524,12 +1281,17 @@
   margin-left: 354px;
   position: absolute;
 }
+.form-control
+{
+  width: 200px!important;
+  margin-top: 0px!important;
+}
 .wallgroup
 {
-  width: 120%!important;
+  width: 124%!important;
   height: 480px;
-  margin-left: -120px;
-  margin-top: 46px;
+  margin-left: -137px;
+  margin-top: 70px;
 }
 .containergift
 {
@@ -549,6 +1311,8 @@
   margin-left: -235px;
 
 }
+
+
 .borderbox
 {
   width: 216px;
@@ -556,22 +1320,72 @@
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
   background-color: var(--white);
 }
+
+.borderboxselect
+{
+  margin-left: -47px;
+  width: 238px;
+  height: 163px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
+  background-color: var(--white);
+  padding-top: 6px;
+
+}
+.borderboxselect3
+{
+  margin-left: -25px;
+    width: 172px;
+    height: 163px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
+  background-color: var(--white);
+  padding-top: 6px;
+
+}
+.borderboxselect4
+{
+  margin-left: -51px;
+  width: 155px;
+  height: 163px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
+  background-color: var(--white);
+  padding-top: 6px;
+
+}
+
+.borderboxselect2
+{
+  margin-left: 8px;
+  width: 148px;
+  height: 163px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
+  background-color: var(--white);
+  padding-top: 6px;
+
+}
+
 .borderbox2
 {
-  width: 275px;
+  width: 246px;
+  height: 338px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
+  background-color: var(--white);
+}
+.borderbox3
+{
+  width: 246px;
   height: 338px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
   background-color: var(--white);
 }
 .btnemerge
 {
-  width: 134px!important;
-    height: 50px!important;
-    border-radius: 2px!important;
-    background-color: #434343;
-    text-align: center!important;
-    margin-left: 610px!important;
-    margin-top: 25px;
+  width: 147px!important;
+  height: 42px!important;
+  border-radius: 2px!important;
+  background-color: #434343;
+  text-align: center!important;
+  margin-left: 593px!important;
+  margin-top: 25px;
 }
 .colshop
 {
@@ -579,16 +1393,7 @@
   padding-left: 21px!important;
 
 }
-.artc2
-{
-  width: 114%!important;
-  padding-left: -43px;
-  margin-left: -18px;
-}
-.artc1
-{
-  width:102%;
-}
+
 .artd4
 {
   width: 114%!important;
@@ -601,11 +1406,7 @@
   padding-left: -2px;
   margin-left: 2px;
 }
-.rowshop
-{
-  margin-left: 6.5px;
-  width: 95%!important;
-}
+.
 .shopmainrow
 {
   padding-top:16px;
@@ -758,9 +1559,10 @@
     }
     .heroimg
     {
-      margin-left: -12px;
-      width: 133%!important;
-      height: 382px;
+      margin-left: -120px;
+      width: 122%!important;
+      margin-top: 5px;
+  
     }
     .giftside
     {
@@ -794,4 +1596,182 @@
       margin-top: -412px;
       margin-left: 82px;
     }
+}
+@media screen and (min-width: 320px) and (max-width: 480px){
+  .sidearrow
+  {
+    margin-left: 61pc;
+    width: 49px;
+    margin-top: -42pc;
+
+  }
+  .sidearrow1
+
+  {
+    width: 49px;
+    margin-top: -41pc;
+    margin-left: -1pc;
+  }
+  .bannercontainer
+   {
+    margin-top: -100px;
+  }
+  .bannerdot {
+    margin-top: 10pc;
+    margin-left: 88px;
+    width: 158px;
+}
+.banner {
+  position: absolute;
+  z-index: 1;
+  width: 17pc;
+  margin-top: 282px;
+  margin-left: -13pc;
+  height: 231px;
+}
+.banner2 {
+  height: 412px!important;
+  margin-top: -9pc;
+  margin-left: 249px;
+}
+.bannerline
+{
+  margin-top: 3pc;
+  z-index: 1;
+  position: absolute;
+  margin-left: 32pc;
+}
+.bannercircle {
+  width: 129px;
+  margin-top: -81px;
+  margin-left: 31pc;
+  z-index: -1;
+  position: absolute;
+}
+.bannerheading {
+  width: 448px;
+    height: 76px;
+    font-family: Raleway;
+    font-size: 34px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    margin-top: -15pc;
+    margin-left: 643px!important;
+}
+.bannersubheading {
+  width: 284px;
+    height: 64px;
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.59;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222222;
+    margin-top: -11px;
+    margin-left: 636px;
+}
+.bannerside {
+  width: 447px;
+  margin-top: -30pc;
+  margin-left: 65pc;
+
+ 
+}
+.camera
+  {
+    object-fit: cover;
+    height: 247px!important;
+    object-position: 80% 50%;
+    margin-left: 694px;
+    width: 373px!important;
+    max-width: fit-content;
+    max-width: 500px!important;
+    margin-top: -46pc;
+
+  }
+  .draw
+  {     
+    margin-left: 44pc;
+    width: 145%!important;
+    max-width: 33pc!important;
+    margin-top: -49pc;
+  }
+  .fitimage{
+    margin-left: 9pc;
+    width: 418px!important;
+    object-position: 84% 50%;
+    object-fit: cover;
+    max-width: fit-content!important;
+    height: 44pc!important;
+    width: 31pc!important;
+
+    }
+    .img
+    {
+      margin-top: 3pc!important;
+      margin-left: 3pc;
+      width: 130%!important;
+    }
+    .girly{
+      width: 130%!important;
+      margin-left: 3pc;
+    }
+    .fitimages
+    {
+    width: 521px!important;
+    object-fit: cover;
+    width: 2000px;
+    margin-left: 37pc;
+    margin-top: -40pc!important;
+    height: max-content!important;
+    max-height: 250%!important;
+    height: 778px!important;
+    max-width: 100pc!important;
+    }
+    .head{
+      margin-top: -13pc;
+    }
+    #container1
+    {
+      margin-top: 80px!important;
+      width: 1208px!important;
+      height: 352px;
+      max-width: 1369px!important;
+    }
+    .selection {
+      width: 81pc;
+      height: 147px;
+      font-family: Raleway;
+      font-size: 3.5pc;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.17;
+      letter-spacing: normal;
+      text-align: left;
+      color: #2c1915;
+      padding-left: 12px;
+  }
+  .path
+  {
+    margin-left: -139px!important;
+    margin-top: -90px!important;
+    width: 229px!important;
+    height: 20pc;
+  }
+  .forest
+  {
+       width: 243px!important;
+   height: 202px!important;
+   margin-left: -50px!important;
+  }
+    
 }

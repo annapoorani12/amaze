@@ -143,12 +143,12 @@ ul.social-network li {
   font-size: 14px;
   color: rgba(255,255,255,1);
 }
-.form-control {
-  margin-top: 20px;
-  margin-left: 48px;
-  height: 49px;
-  width: 51%;
-  background-color: #ec8c39;
+.form1 {
+  margin-top: 20px!important;
+  margin-left: 48px!important;
+  height: 49px!important;
+  width: 51%!important;
+  background-color: #ec8c39!important;
 }
 .btn-warning {
     color: #424242;

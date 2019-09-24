@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Amaze Example</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/header.css" id="applicationStylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/textmedia.css" id="applicationStylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/media.css" id="applicationStylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/footer.css" id="applicationStylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+     <link href="\assets/fonts/iconfont/material-icons.css" rel="stylesheet">
+    <style>
+
+.inner-addon { 
+    position: relative; 
+}
+
+
+.inner-addon .fa-search {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+.left-addon .fa-search  { left:  0px;}
+.right-addon .fa-search { right: 0px;}
+
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+.dropdown-content {
+  display: none;
+  position: fixed;
+  min-width: 1261px;
+  z-index: 1;
+}
+.dropdown-content >li{
+    display:inline-block;
+    float:left;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+ul.dropdown-content
+{
+    list-style-type: circle;
+}
+.nav-item
+{
+    margin-left: 10px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+	html{
+  overflow-x: hidden;
+  }
+</style>
+</head>
+<body>
+<div class="containers">
+	<nav class="navbar fixed-top navbar-expand-md navbar-dark justify-content-between">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse dual-nav w-50 order-1 order-md-0">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown ">
+                    <a class="nav-link pl-0" id="sub-1" href="#">Artworks<i class="fa fa-angle-down"style="padding-left: 10px;"></i> <span class="sr-only">Artworks</span></a>
+                        <ul class="dropdown-content" style="list-style-type:circle;">
+                            <li><a href="#">Painting</a></li>
+                            <li><a href="#">Photography</a></li>
+                            <li><a href="#">Skulpture</a></li>
+                            <li><a href="#">Drawings</a></li>
+                            <li><a href="#">Digital arts</a></li>
+                            <li><a href="#">Collages</a></li>
+                            <li><a href="#">All our artworks</a></li>
+                        </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" id="sub-2" href="#">Artists<i class="fa fa-angle-down"style="padding-left: 10px;"></i> </a>
+                    <ul class="dropdown-content" style="list-style-type:circle;">
+                            <li> <a href="#">Top 50 sellers</a></li>
+								<li><a href="#">Emerging artist</a></li>
+								<li> <a href="#">Featured artist</a></li>
+								<li><a href="#">Painter</a></li>
+								<li><a href="#">Skulpture</a></li>
+								<li><a href="#">Photographer</a></li>
+								<li><a href="#">All our artists</a></li>
+                        </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gift cards</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sell your arts</a>
+                </li>
+            </ul>
+        </div>
+        <img src="image/Group 131.svg" class="mx-auto d-block text-center order-0 order-md-1 w-10 h-10" style="width: 21px;">
+        <a href="#" class="navbar-brand mx-auto d-block text-center order-0 order-md-1 w-20">Amaze arts</a>
+        <div class="navbar-collapse collapse dual-nav w-50 order-2">
+            <ul class="nav navbar-nav ml-auto">
+            	<form class="ml-3 my-auto d-inline w-20">
+		            <div class="inner-addon right-addon">
+			          <i class="fas fa-search"></i>
+			          <input type="text" class="form-control" placeholder="Search" />
+			        </div>
+		        </form>
+            	<li class="nav-item">
+                    <a class="nav-link" href="#">Join</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sign In</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href=""><i class="fas fa-heart"style="color:black;"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href=""><i class="fas fa-shopping-cart" ></i></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+</div>

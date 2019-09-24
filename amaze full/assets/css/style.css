@@ -1,0 +1,347 @@
+
+    .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+  }
+  .img-bordered
+  {
+    /*margin:.2.5rem;*/
+    margin:.5rem 0rem .5rem 0rem;
+    padding:3px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+  }
+  /* selection carousel style */
+  .col-md-3{
+    display: inline-block;
+    margin-left:-4px;
+  }
+  .col-md-3 img{
+    width:100%;
+    height: 15rem;
+  }
+  .selectionimg{
+    display: inline-block;
+    margin-left:-4px;
+  }
+  .selectionimg img{
+    width:100%;
+    height:11rem;
+  }
+  .col-md-2{
+    display: inline-block;
+    margin-left:-4px;
+  }
+  .col-md-2 img{
+    width:100%;
+    height:11rem;
+  }
+  .phoneviewimages img
+  {
+       width: 100%;
+    padding: 131px;
+    height: 61rem;
+  }
+  .carousel-inner {
+    position: relative;
+   
+    margin: 10rem 10rem 10rem -8rem;
+
+}
+.carousel {
+  position: relative;
+
+}
+.carousel-control
+{
+  background-image: none!important;
+}
+   
+  /* Container style */
+  .selectionContainer
+  {
+    background-color: #fff6ef;
+    width: 1348px!important;
+    max-width: 2000px!important;
+    margin-top: 80px;
+    height: 345px;
+  } 
+  /* Selection of original artworks heading */
+  .selectionArtworksHeading
+  {
+    width: 316px;
+    height: 147px;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2c1915;
+    z-index: 0;
+    position: absolute;
+    margin: 10rem 10rem 10rem -17rem;
+}
+/*  */
+.selectionarrow
+{
+    font-size: 3rem;
+    color: black;
+}
+.selectionborder
+{
+  margin: 0rem 10rem 10rem -10rem;
+  width: 176px!important;
+  height: 22rem!important;
+
+}
+/* selection phone view container */
+.selectionphoneviewcontainer
+{
+  background-color: #fff6ef;
+  width: 100%!important;
+  /* max-width: 2000px!important; */
+  margin-top: 80px;
+  height: 617px;
+}
+
+/* phoneview selection div img css */
+.selectiondivimg
+{
+  width: 50%!important;
+  height: 28rem!important;
+  margin: 0rem 10rem 10rem 20rem;
+}
+.carouseldiv
+{
+  margin-top: -12pc;
+
+}
+/* selection phone view Heading */
+.selectionArtworksHeadingPhoneView
+{
+  margin-left: 19rem;
+  width: 1126px;
+  height: 51px;
+  font-family: Raleway;
+  font-size: 53px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2c1915;
+}
+/* Featured artist */
+.avatar {
+    vertical-align: middle;
+    width: 3rem!important;
+    height: 3rem!important;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-left: 1pc;
+    object-fit: cover;
+}
+/* featured col img */
+.featuredcolimg
+{
+    width: 100%;
+    height: 8rem!important;
+}
+/* Shop Heading */
+.shopheading
+{
+    width: 430px;
+    height: 147px;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2c1915;
+    margin-left: 23rem;
+}
+/* Phone view Shop Fetaured artist heading */
+.fetauredartistphoneviewcontainer
+{
+    margin-top: 83px;
+    margin-left: 23pc!important;
+
+}
+.PhoneviewShopheading
+{
+    width: 430px;
+    height: 147px;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2c1915;
+    margin-left: 23rem;  
+}
+/* Phoneview best collection */
+.best_Collection_Container_Phoneview 
+{
+  background-color: #fff6ef;
+  width: 100%!important;
+  /* max-width: 2000px!important; */
+  margin-top: 80px;
+  height: 857px;
+}
+/* best collection heading  phone view*/
+.bestcollectionheadingphoneview
+{
+  z-index: 0;
+  position: absolute;
+  width: 504px;
+  height: 24px;
+  font-family: Raleway;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--black-two);
+  padding: 7rem 10rem 10rem 10rem;
+}
+/* best collection subheading */
+.bestcollectionsubheading
+{
+  padding: 16rem 5rem 10rem 4rem;
+  z-index: 0;
+  position: absolute;
+  width: 33pc;
+  font-size: 21px;
+}
+/* best collection phoneview images */
+.bestcollectioncolorimg
+{
+  width: 100%;
+  height: 20.1rem;
+  padding: 5rem;
+  margin: 26rem 0rem 8rem 5rem;
+}
+.bestcollectioncolortreeimg
+{
+  width: 218%;
+  height: 22.1rem;
+  padding: 5rem;
+  margin: -17rem 0rem 8rem 5rem;
+}
+.bestcollectionblackstatueimg
+{
+  width: 100%;
+    height: 33.1rem;
+    padding: 5rem;
+    margin: 26rem 0rem 8rem -6rem;
+}
+.bestcollectionwhiteimg
+{
+  width: 100%;
+    height: 32.1rem;
+    padding: 5rem;
+    margin: -13rem 0rem 8rem 6rem;
+
+}
+.bestcollectionhorseimg
+{
+  width: 104%;
+    height: 23.1rem;
+    padding: 5rem;
+    margin: -10rem 0rem 8rem -6rem;
+
+}
+.bestcollectiontreeimg
+{
+  width: 104%;
+    height: 20.3rem;
+    padding: 5rem;
+    margin: -13rem 0rem 0rem -6rem;
+
+}
+/* Phoneview create artist style */
+
+.createphoneviewheading
+{
+  width: 1398px;
+  height: 147px;
+  font-family: Raleway;
+  font-size: 19px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  text-align: left;
+  padding: 11rem 10rem 10rem 10rem;
+}
+.createphoneviewsubheading
+{
+  width: 440px;
+  height: 147px;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  text-align: center;
+  margin: -5rem 1rem 1rem 3rem!important;
+}
+.btncreatetextphoneview
+{
+  width: 79px;
+    height: 30px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.createphoneviewcontainer
+{
+  max-width: max-content;
+  width: 2000px!important;
+}
+.createphoneviewimg
+{
+  width: 40%;
+    padding: 4rem 10rem 10rem 20rem;
+    margin: -9rem 2rem 2rem -3rem;
+}
+
+
+}
+.btncreatePhoneview
+{
+margin: 6rem 10rem 0rem -29rem;
+width: 145px;
+height: 66px; 
+border-radius: 2px;
+background-color: #ec8c39;
+}
+/* Valuable customer Phoneview */
+.valuablecustomerphoneview
+{
+  background-color: #ec8c39;
+}
